@@ -172,6 +172,20 @@ $has_comments = (count($comments) > 0);
     <div class="one_third">
 	<section class = "infocenter" />
         <h2>Bauplan</h2>
+		<img id="bauplan1" src="images/home/karte.jpg" alt="Bauplan" width= "100%" height="100%">
+		
+		<!-- The Modal -->
+		<div id="bauplan1Modal" class="modal">
+
+	<!-- The Close Button -->
+	<span class="close" onclick="document.getElementById('bauplan1Modal').style.display='none'">&times;</span>
+
+	<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="imgBauplan1">
+
+	<!-- Modal Caption (Image Text) -->
+	<div id="captionBauplan1"></div>
+	</div>
         <p>Wird ein Bild vom Bauplan hochgeladen? Wenn ja, dann könnte man das ja in die Slideshow oben einfügen. <br> Lorem ipsum dolor sit amet, consetetur 
 		sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
 		justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
@@ -336,6 +350,7 @@ $has_comments = (count($comments) > 0);
 ================================================== --> 
 <!-- Scripts ==================================================
 ================================================== --> 
+<script src = "js/modellbetrieb1js.js" type = "text/javascript"></script>
 <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <!-- Main js files --> 
 <script src="js/screen.js" type="text/javascript"></script> 

@@ -505,8 +505,20 @@ a.simple {
     cursor: pointer;
     transition: 0.3s;
 }
+#karte{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#bauplan1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 #ablaufschema:hover {opacity: 0.7;}
+#karte:hover {opacity: 0.7;}
+#bauplan1:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -532,6 +544,16 @@ a.simple {
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
+#captionBauplan1 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
 #captionAblaufschema {
     margin: auto;
     display: block;
@@ -542,7 +564,6 @@ a.simple {
     padding: 10px 0;
     height: 150px;
 }
-
 #captionKarte {
     margin: auto;
     display: block;
@@ -554,8 +575,11 @@ a.simple {
     height: 150px;
 }
 
+
+
+
 /* Add Animation - Zoom in the Modal */
-.modal-content, #captionAblaufschema, #captionKarte { 
+.modal-content, #captionAblaufschema, #captionKarte, #captionBauplan1{ 
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
