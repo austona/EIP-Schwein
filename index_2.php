@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -113,26 +114,18 @@
 </div>
 
 <div id = "main" style = "background: #E1FBEA;">
-<div class = "container">
-<div class = "blankSeparator"> </div>
-<div class = "blankSeparator"> </div>
-<!-- <div class = "sepContainer"> </div> -->
-<h1> Modellbetrieb 1 </h1>
-<div class = "sepContainer"> </div>
 <!-- Home Content Part - Slider ==================================================
 ================================================== -->
-
 <div class="flexslider">
   <ul class="slides">
-    <li> <a href="#"><img src="images/maststall_2.jpg" alt=""/></a> 
-	 <p class="flex-caption">Hier steht irgendetwas passend zum Bild.</p>
+    <li> <a href="#"><img src="images/flexslider/3.jpg" alt=""/></a> 
+	 <p class="flex-caption">Das hier ist Bauprojekt 1.</p>
 	</li>
-    <li> <img src="images/modellbetrieb_2.jpg" alt="" /> <p class="flex-caption">Hier steht irgendetwas passend zum Bild.</p></li>
-    <li> <a href="#"><img src="images/modellbetrieb_1.jpg" alt="" /></a>
-     <p class="flex-caption">Hier steht irgendetwas passend zum Bild.</p>
+    <li> <img src="images/flexslider/6.jpg" alt="" /> </li>
+    <li> <a href="#"><img src="images/flexslider/4.jpg" alt="" /></a>
+     
     </li>
   </ul>
-</div>
 </div>
 <!-- Home Content Part - Box One ==================================================
 ================================================== -->
@@ -142,130 +135,135 @@
   <div class="info">
     <div class="one_third">
 	<section class = "infoleft"/>
-      <h2>Betriebsspiegel</h2>
-     <p><ul>
-	 <li>-Hier stehen dann</li>
-	 <li>-Einige Details</li>
-	 <li>-Zu dem vorgestellen</li>
-	 <li>-Modellbetrieb</li>
-	  <li>-Hier stehen dann</li>
-	 <li>-Einige Details</li>
-	 <li>-Zu dem vorgestellen</li>
-	 <li>-Modellbetrieb</li>
-	  <li>-Hier stehen dann</li>
-	 <li>-Einige Details</li>
-	 <li>-Zu dem vorgestellen</li>
-	 <li>-Modellbetrieb</li>
-	  <li>-Hier stehen dann</li>
-	 <li>-Einige Details</li>
-	 <li>-Zu dem vorgestellen</li>
-	 <li>-Modellbetrieb</li>
-	 
-	 
-	 </ul></p>
+      <h2>Ziel der OPG Schwein?</h2>
+     <p>Die OPG Schwein hat zum Ziel innovative Baukonzepte in Bezug auf  Tier- und Umweltschutz zu entwickeln, zu bewerten und in der Praxis zu verbreiten. 
+	 Dies soll dadurch erreicht werden, dass eine Plattform geschaffen wird, in der Landwirte, Berater, Vermarktung und Wissenschaftler direkt miteinander auf Augenhöhe 
+	 kommunizieren und so innovative aber auch funktionsfähige und arbeitswirtschaftlich günstige Lösungen gefunden werden. Als Plattform dienen dabei die regelmäßigen 
+	 Treffen der OPG in denen innovative Bauvorhaben entwickelt und mögliche Probleme und Lösungen diskutiert werden. Dieser Bottom-Up Ansatz ermöglicht es  innovative 
+	 bauliche Ansätze aus der Forschung schon in der Planungsphase mit der  Praxiserfahrung der Landwirte zu kombinieren und unter praxisnahen Bedingungen zu erproben. 
+	 Im Falle eines positiven Fazits sichert dies die rasche Verbreitung in der Praxis.</p>
 	 </div>
 	
     <div class="one_third">
 	<section class = "infocenter" />
-        <h2>Bauplan</h2>
-        <p>Wird ein Bild vom Bauplan hochgeladen? Wenn ja, dann könnte man das ja in die Slideshow oben einfügen. <br> Lorem ipsum dolor sit amet, consetetur 
-		sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-		justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-		consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
-		accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+        <h2>Was ist ein EIP Projekt?</h2>
+        <p> Text_EIP_Projekt: Links zur EIP Datenbank </p>
 	</div>	
       <div class="one_third lastcolumn">
 	  <section class = "inforight" />
-        <h2>Beschreibung der Innovation</h2>
-       <p>Hier kommt also eine Beschreibung der Innovation hin. <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-	   sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam e
-	   t justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum 
-	   dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed 
-	   diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+        <h2>Was ist eine Operationelle Gruppe?</h2>
+       <p> Text_Operationelle_Gruppe: kurze Erläuterung </p>
 	   </div>
     
   </div>
 </div>
-
-    <!-- Blog Comments ==================================================
+<!-- container ends here --> 
+<!-- Home Content Part - Box Two ==================================================
 ================================================== -->
-<div class = "container">
-    <section class="comments">
-      <div class="blankSeparator"></div>
-      <div class="sepContainer2"></div>
-      <h2>Kommentare</h2>
-      <div class="sepContainer2"></div>
-      <div class="blankSeparator"></div>
-      <div class="boxtwosep"></div>
-      <div id="comments">
-        <ul id="articleCommentList">
-          <li>
-            <div class="commentMeta">
-              <p>10.06.2017</p>
-              <!-- <img class="user" src="images/blog/1.png" alt="Default user icon" />  -->
-			  </div>
-            <!-- end commentMeta -->
-            <div class="commentBody">
-              <h3><a href="#">John Smith</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat lectus risus. Donec scelerisqu turpis non ligula convallis viverra pharetra metus volutpat. Mauris eu mattis metus. Nullam et faucibus dui. In hac habitasse platea dictumst. Praesent ut massa arcu, eget fermentum leo. </p>
-              </div>
-            <!-- end commentBody --> 
-          </li>
-          <li>
-            <div class="commentMeta">
-              <p>09.06.2017</p>
-              </div>
-            <!-- end commentMeta -->
-            <div class="commentBody">
-              <h3><a href="#">Admin</a></h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor    quam,feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-            </div>
-            <!-- end commentBody -->
-            <ul>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!-- end Comments --> 
-    </section>
-    <!-- Blog Contact ==================================================
+<div class="container clients">
+  <div class="sepContainer"></div>
+  <h2>Beteiligte Parteien</h2>
+  <div class="one_third"> 
+	<a target="_blank" href="https://www.hfwu.de/hfwu-start/">
+	<img src="images/home/hfwu_logo.jpg" alt=""/> 
+	</a>
+  </div>
+  <!-- end one_third -->
+  <div class="one_third"> 
+	<a target="_blank" href="https://www.uni-hohenheim.de/">
+	<img src="images/home/hohenheim_logo.jpg" alt=""/> 
+	</a>
+  </div>
+  <!-- end one_third -->
+  <div class="one_third lastcolumn"> 
+	<a target="_blank" href="http://www.lsz-bw.de/pb/,Lde/Startseite">
+	<img src="images/home/lsz_logo.jpg" alt=""/> 
+	</a>
+  </div>
+  <!-- end one_third lastCol -->
+</div>
+<!-- end container --> 
+<!-- Home Content Part - Karte und Ablauf -->
+<div class = "container scheme_map">
+	<div class = "sepContainer1"> </div>
+	
+	<!-- <h2> Ablaufschema </h2>  -->
+	<!-- <img class = "effectfront" src = "images/home/schaubild.jpg"/> -->
+	
+	
+	<!-- <h2> Karte </h2>  -->
+	<!-- <img src = "images/home/karte.jpg"/> -->
+	
+
+ <div class = "one_half">
+ <h2> Ablaufschema </h2>
+	<!-- Trigger the Modal -->
+	<img id="ablaufschema" src="images/home/schaubild.jpg" alt="Schaubild" width= "100%" height="100%">
+
+	<!-- The Modal -->
+		<div id="ablaufschemaModal" class="modal">
+
+	<!-- The Close Button -->
+	<span class="close" onclick="document.getElementById('ablaufschemaModal').style.display='none'">&times;</span>
+
+	<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="imgAblaufschema">
+
+	<!-- Modal Caption (Image Text) -->
+	<div id="captionAblaufschema"></div>
+	</div>
+</div>
+<div class = "one_half lastcolumn">
+<h2> Karte </h2>
+<!-- Trigger the Modal -->
+	<img id="karte" src="images/home/karte.jpg" alt="Karte" width= "100%" height="100%">
+
+	<!-- The Modal -->
+		<div id="karteModal" class="modal">
+
+	<!-- The Close Button -->
+	<span class="close" onclick="document.getElementById('karteModal').style.display='none'">&times;</span>
+
+	<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="imgKarte">
+
+	<!-- Modal Caption (Image Text) -->
+	<div id="captionKarte"></div>
+	</div>
+
+</div>
+</div>
+<!-- end container -->
+<!-- Home Content Part - Box Three ==================================================
 ================================================== -->
-    <div id="contactForm">
-      <h2>Hinterlassen Sie einen Kommentar</h2>
-      <form action="post_comment.php" method="post" id="contact_form">
-        <div class="name">
-          <label for="name">Name:</label>
-          <p>Bitte geben Sie Ihren ganzen Namen ein</p>
-          <input id=name name=email type=text placeholder="e.g. Mr. John Smith" required />
-        </div>
-        <div class="email">
-          <label for="email">Ihre E-Mail Adresse</label>
-          <p> Bitte geben Sie Ihre E-Mail Adresse ein </p>
-          <input id=email name=email type=email placeholder="example@domain.com" required />
-        </div>
-        <div class="message">
-          <label for="message">Ihre Nachricht</label>
-          <p> Bitte geben Sie hier Ihren Kommentar ein.</p>
-          <textarea id=message name=message rows=6 cols=10 required></textarea>
-        </div>
-        <div id="loader">
-          <input type="submit" value="Absenden" />
-        </div>
-		<!-- comment_post_ID value hard-coded as 1 --> 
-    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
-
-
-      </form>
-    </div>
-    <!-- end contactForm --> 
+<div class="container boxthree">
+  <div class="sepContainer1"><!-- --></div>
+  <h2>Aktuelles</h2>
+  <!-- <div class="blankSeparator"></div> -->
+  <div class="one_third">
+    <section class="boxthreeleft"> <img src="images/home/1.png" alt=""/>
+      <h3>Neuigkeit Nummer 1</h3>
+      <p>Das ist neuestens passiert.</p>
+      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
   </div>
-  <div class="blankSeparator"></div>
+  <!-- one-third column ends here -->
+  <div class="one_third">
+    <section class="boxthreecenter"> <img src="images/home/2.png" alt=""/>
+      <h3>Neuigkeit Nummer 2</h3>
+      <p>Davor ist das passiert.</p>
+      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
   </div>
-  
-
-
+  <!-- one-third column ends here -->
+  <div class="one_third lastcolumn">
+    <section class="boxthreeright"> <img src="images/home/3.png" alt=""/>
+      <h3>Neugikeit Nummer 3</h3>
+      <p>Und davor ist das passiert.</p>
+      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
+  </div>
+  <!-- one-third column ends here --> 
+</div>
 <!-- container ends here -->
-
+<!-- <div class="blankSeparator1"></div> -->
 
 
 <!--Footer ==================================================
@@ -302,10 +300,10 @@
       <!-- <p>Visit <a href="http://anarieldesign.com/" rel="nofollow">Anariel Design</a> and find more interesting things.</p> -->
     <!-- </div> -->
   <!-- </div> -->
-  <!-- <!-- container ends here --> 
+  <!-- <!-- container ends here -->  -->
 <!-- </div> -->
 <!-- footer ends here --> 
-<!-- </div> -->
+</div>
 <!-- Copyright ==================================================
 ================================================== -->
 <div id="copyright">

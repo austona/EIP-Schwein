@@ -1,3 +1,11 @@
+<?php
+require('Persistence.php');
+$comment_post_ID = 1;
+$db = new Persistence();
+$comments = $db->get_comments($comment_post_ID);
+$has_comments = (count($comments) > 0);
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -128,7 +136,7 @@
 	 <p class="flex-caption">Hier steht irgendetwas passend zum Bild.</p>
 	</li>
     <li> <img src="images/modellbetrieb_2.jpg" alt="" /> <p class="flex-caption">Hier steht irgendetwas passend zum Bild.</p></li>
-    <li> <a href="#"><img src="images/modellbetrieb_1.jpg" alt="" /></a>
+    <li> <a href="#"><img src="images/modellbetrieb_1.JPG" alt="" /></a>
      <p class="flex-caption">Hier steht irgendetwas passend zum Bild.</p>
     </li>
   </ul>
@@ -190,44 +198,42 @@
     <!-- Blog Comments ==================================================
 ================================================== -->
 <div class = "container">
-    <section class="comments">
+    <!-- <section class="comments">-->
+	<!--<section id = "comments">-->
       <div class="blankSeparator"></div>
       <div class="sepContainer2"></div>
       <h2>Kommentare</h2>
       <div class="sepContainer2"></div>
       <div class="blankSeparator"></div>
       <div class="boxtwosep"></div>
-      <div id="comments">
-        <ul id="articleCommentList">
-          <li>
-            <div class="commentMeta">
-              <p>10.06.2017</p>
-              <!-- <img class="user" src="images/blog/1.png" alt="Default user icon" />  -->
-			  </div>
-            <!-- end commentMeta -->
-            <div class="commentBody">
-              <h3><a href="#">John Smith</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat lectus risus. Donec scelerisqu turpis non ligula convallis viverra pharetra metus volutpat. Mauris eu mattis metus. Nullam et faucibus dui. In hac habitasse platea dictumst. Praesent ut massa arcu, eget fermentum leo. </p>
-              </div>
-            <!-- end commentBody --> 
-          </li>
-          <li>
-            <div class="commentMeta">
-              <p>09.06.2017</p>
-              </div>
-            <!-- end commentMeta -->
-            <div class="commentBody">
-              <h3><a href="#">Admin</a></h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor    quam,feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-            </div>
-            <!-- end commentBody -->
-            <ul>
-            </ul>
-          </li>
-        </ul>
-      </div>
+ 
+	  <!-- <div id="comments"> -->
+		<ol id="posts-list" class="hfeed<?php echo($has_comments?' has-comments':''); ?>">
+      <li class="no-comments" style = "color: #414550; font-size: 14px">Schreiben Sie den ersten Kommentar!</li>
+      <?php
+        foreach ($comments as &$comment) {
+          ?>
+          <li><article id="comment_<?php echo($comment['id']); ?>" class="hentry">	
+    				<div class="commentMeta">
+    					
+    						<p><?php echo( date('d.m.Y', strtotime($comment['date']) ) ); ?></p>
+    				</div>
+
+    				<div class="commentBody">
+					
+					<h3><a class="url fn" href="#"><?php echo($comment['name']); ?></a> </h3>
+    					<p><?php echo($comment['message']); ?></p>
+    				</div>
+    			</article></li>
+          <?php
+        }
+      ?>
+		</ol>
+		
+		
+      <!-- </div> -->
       <!-- end Comments --> 
-    </section>
+    
     <!-- Blog Contact ==================================================
 ================================================== -->
     <div id="contactForm">
@@ -236,27 +242,29 @@
         <div class="name">
           <label for="name">Name:</label>
           <p>Bitte geben Sie Ihren ganzen Namen ein</p>
-          <input id=name name=email type=text placeholder="e.g. Mr. John Smith" required />
+          <input id=name name=name type=text placeholder="z.B Max Mustermann" required />
         </div>
         <div class="email">
           <label for="email">Ihre E-Mail Adresse</label>
           <p> Bitte geben Sie Ihre E-Mail Adresse ein </p>
-          <input id=email name=email type=email placeholder="example@domain.com" required />
+          <input id=email name=email type=email placeholder="beispiel@domain.de" required />
         </div>
         <div class="message">
           <label for="message">Ihre Nachricht</label>
           <p> Bitte geben Sie hier Ihren Kommentar ein.</p>
-          <textarea id=message name=message rows=6 cols=10 required></textarea>
+          <textarea id=message name=message placeholder = "Bitte geben Sie mindestens 5 Zeichen ein." rows=6 cols=10 required></textarea>
         </div>
         <div id="loader">
-          <input type="submit" value="Absenden" />
+			<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+          <input name = "submit" type="submit" value="Absenden" />
         </div>
-		<!-- comment_post_ID value hard-coded as 1 --> 
-    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+		<!-- comment_post_ID value hard-coded as 1 -->
+   <!--  <input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" /> -->
 
 
       </form>
     </div>
+	<!--</section>-->
     <!-- end contactForm --> 
   </div>
   <div class="blankSeparator"></div>
