@@ -60,24 +60,21 @@ $has_comments = (count($comments) > 0);
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-		
-      <div class="logo"><a href="index.html"><img src="images/logo_eip.png" alt=""/></a></div>
-	  
-	  
+      <div class="logo"><a href="index.html"><img src="images/logo_1.png" alt=""/></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">
             <li><a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span>HOME</a></li>
 			 <li><a href="portfolio.html"><span class="home"><img src="images/portfolio.png" alt="" /></span>BAUPROJEKTE</a>
               <ul>
-                <li><a href="gallery.html">Maststall</a></li>
-				<li><a href="gallery.html">Ferkelaufzucht</a></li>
+                <li><a href="mastbetriebe.html">Maststall</a></li>
+				<li><a href="mastbetriebe.html">Ferkelaufzucht</a></li>
 				<li><a href="gallery.html">Abferkelställe</a></li>
-				<li><a href="gallery.html">Wartesauen/<br><br>Deckzentrum</a></li>
+				<li><a href="gallery.html">Wartesauen/<br>Deckzentrum</a></li>
 				<li><a href="gallery.html">Andere</a></li>
               </ul>
             </li>
-            <li><a href="about.html"><span class="home"><img src="images/about.png" alt="" /></span>INNOVATIVE <br> MAßNAHMEN</a>
+            <li><a href="about.html"><span class="home"><img src="images/about.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
 			<ul>
                 <li><a href="gallery.html">Tierwohl/<br>Beschäftigung/<br>Fütterung</a></li>
 				<li><a href="gallery.html">Schaffung<br>betrieblicher<br>Funktionsbereiche</a></li>
@@ -85,7 +82,7 @@ $has_comments = (count($comments) > 0);
 				<li><a href="gallery.html">Reduktion von<br>Emmissionen</a></li>
               </ul>
 			  </li>
-           <li><a href="features.html"><span class="home"><img src="images/features.png" alt="" /></span>FÜR DEN <br> VERBRAUCHER</a></li>
+           <li><a href="features.html"><span class="home"><img src="images/features.png" alt="" /></span>FÜR DEN VERBRAUCHER</a></li>
             <li><a href="blog.html"><span class="home"><img src="images/blog.png" alt="" /></span>NEWS</a>
             </li>
             
@@ -97,7 +94,6 @@ $has_comments = (count($comments) > 0);
 			</li>
 			
           </ul>
-		  </div>
         </div>
         
         <!-- Responsive Menu -->
@@ -115,7 +111,7 @@ $has_comments = (count($comments) > 0);
             <option value="contact.html">Kontakt</option>
           </select>
         </form>
-      
+      </div>
     </header>
   </div>
 </div>
