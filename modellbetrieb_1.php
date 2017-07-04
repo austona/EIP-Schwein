@@ -128,12 +128,87 @@ $has_comments = (count($comments) > 0);
 
 <div class="flexslider">
   <ul class="slides">
-    <li> <a href="#"><img src="images/maststall_2.jpg" alt=""/></a> 
-	 <p class="flex-caption">Hier steht irgendetwas passend zum Bild.</p>
+    <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_1.jpg" alt=""/></a> 
+	 <div class="flex-caption" style="overflow-x:auto;">
+	 <table>
+	 <tr> 
+		<th>Stallkonzept</th>
+		<th>Nutzung im Modellbetrieb</th>
+	</tr>
+	<tr>
+		<td>Planbefestigter Liegebereich mit Deckel im Stallinneren</td>
+		<td>500 Tiere je Stall</td>
+	</tr>
+	<tr>
+		<td>Perforierter Boden im Fressbereich innen</td>
+		<td>16 Tiere je Bucht</td>
+	</tr>
+	<tr>
+		<td>Perforierter Aktivitätsbereich außen</td>
+		<td>Platzangebot: 1,67 m<sup>2</sup> je Mastschwein (0,67 m<sup>2</sup> außen + 1 m<sup>2</sup>)
+		</td>
+	</tr>
+	<tr>
+		<td>Querlüftung</td>
+		<td>Vermarktung: Konventionell, zum Teil über regionalen Metzger</td>
+	</tr>
+	<tr>
+		<td>4 Klimazonen</td>
+	</tr>
+	
+</table>
+</div>
 	</li>
-    <li> <img src="images/modellbetrieb_2.jpg" alt="" /> <p class="flex-caption">Hier steht irgendetwas passend zum Bild.</p></li>
-    <li> <a href="#"><img src="images/modellbetrieb_1.JPG" alt="" /></a>
-     <p class="flex-caption">Hier steht irgendetwas passend zum Bild.</p>
+    <li> <img src="images/modellbetrieb_1/modellbetrieb_1_2.jpg" alt="" />
+	<div class = "flex-caption">
+	<h3>Fußbodenheizung</h3>
+	<p> 
+	Die Fußbodenheizung soll die Akzeptanz dieser Fläche als Ruhe- und Liegebereich 
+	 fördern und dadurch das Koten der Tiere in diesem Bereich  verhindern. Durch  die längliche Gestaltung der Liegefläche und der Fußbodenheizung 
+	 können zudem zwei Klimabereiche in der Kiste geschaffen werden. Den hinteren wärmeren Bereich, unter dem sich der Vorlauf der Fußbodenheizung
+	 befindet, und der vordere Bereich, der durch den Rücklauf der Fußbodenheizung nur leicht angewärmt wir. Durch diese Wahlmöglichkeit  soll den 
+	 Tieren stets ein in Größe und Klima optimal angepasster Liegebereich zur Verfügung stehen.
+	</p>
+	</div>
+	</li>
+    <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_3.jpg" alt="" /></a>
+     <div class = "flex-caption">
+	<h3>Kistengestaltung</h3>
+	<p> 
+	Im Deckel der Liegekiste befinden sich Lüftungsöffnungen die je nach Bedarf mit einem Schieber geöffnet werden können, 
+	sodass Schadgase und Feuchtigkeit entweichen können. Ein Windschutz unter den Schiebern verhindert zu hohen Lichteinfall und Zugluft,
+	sodass der Liegebereich trotz geöffneter Lüftungsöffnung als Liegefläche attraktiv bleibt.</p>
+	</div>
+    </li>
+	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_4.png" alt="" /></a>
+     <div class = "flex-caption">
+	<h3>Arbeitswirtschaftliches Einstreuen durch mechanisierte Einstreuvorlage</h3>
+	<p> 
+	Der Kontrollgang wird mit einer Schiene versehen an der ein, mit einem Strohballen bestückter Korb entlanggeführt werden kann. 
+	#Dieser Korb kann über die gesamte Stalllänge hinweggeschoben werden, sodass jede Bucht individuell mit Einstreu versorgt werden kann.
+	Die Einstreuvorrichtung wird am Ende des Kontrollganges von außen per Radlader mit Strohballen beladen.
+	Dies soll den Arbeitsaufwand des Einstreuens erheblich senken (Ressourcenschonung) und ermöglicht tägliches Einstreuen je nach Bedarf.
+	Wodurch wiederum sichergestellt wird, dass der Liegebereich trocken bleibt und als solcher von den Tieren angenommen wird
+	(Schaffung von Funktionsbereichen). </p>
+	</div>
+    </li>
+	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_5.png" alt="" /></a>
+     <div class = "flex-caption">
+	<h3>Querlüftung (geschlossen)</h3>
+	<p> 
+	An der Außenwand sowie zwischen Fütterungs- und Außenbereich des Stallgebäudes sind Lüftungsklappen installiert, 
+	sodass eine Querlüftung stattfinden kann. Die Steuerung der Lüftungsklappen kann manuell nach Bedarf oder automatisch über 
+	eine Temperaturregelung erfolgen. Dadurch kann auf Ventilatoren verzichtet werden und Energie eingespart werden. </p>
+	</div>
+    </li>
+	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_5.png" alt="" /></a>
+     <div class = "flex-caption">
+	<h3>Querlüftung (geöffnet)</h3>
+	<p> 
+	An der Außenwand sowie zwischen Fütterungs- und Außenbereich des Stallgebäudes sind Lüftungsklappen installiert, 
+	sodass eine Querlüftung stattfinden kann. Die Steuerung der Lüftungsklappen kann manuell nach Bedarf oder automatisch über 
+	eine Temperaturregelung erfolgen. Dadurch kann auf Ventilatoren verzichtet werden und Energie eingespart werden. </p>
+	</div>
     </li>
   </ul>
 </div>
