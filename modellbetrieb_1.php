@@ -226,7 +226,11 @@ $has_comments = (count($comments) > 0);
 	eine Temperaturregelung erfolgen. Dadurch kann auf Ventilatoren verzichtet werden und Energie eingespart werden. </p>
 	</div>
     </li>
+<<<<<<< HEAD
 	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_6.png" alt="" /></a>
+=======
+	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_5.png" alt="" /></a>
+>>>>>>> 0be5d3e5213cb14a5b876393c79a114ba2c3942a
      <div class = "flex-caption">
 	<h3>Querlüftung (geöffnet)</h3>
 	<p> 
@@ -234,6 +238,7 @@ $has_comments = (count($comments) > 0);
 	sodass eine Querlüftung stattfinden kann. Die Steuerung der Lüftungsklappen kann manuell nach Bedarf oder automatisch über 
 	eine Temperaturregelung erfolgen. Dadurch kann auf Ventilatoren verzichtet werden und Energie eingespart werden. </p>
 	</div>
+<<<<<<< HEAD
     </li>
 	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_7.png" alt="" /></a>
      <div class = "flex-caption">
@@ -278,6 +283,8 @@ $has_comments = (count($comments) > 0);
 
 	</ul>
 	</div>
+=======
+>>>>>>> 0be5d3e5213cb14a5b876393c79a114ba2c3942a
     </li>
   </ul>
 </div>

@@ -322,10 +322,13 @@ html[xmlns] .slides {
 	padding-bottom: 0.35em; 
 }
 
+<<<<<<< HEAD
 .flex-caption li {
 	 padding: 0.5em;
 }
 
+=======
+>>>>>>> 0be5d3e5213cb14a5b876393c79a114ba2c3942a
 /* Direction Nav */
 .flex-direction-nav {
 	height: 0;
