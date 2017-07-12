@@ -14,27 +14,31 @@ div.line {
 }
 div.sepContainer {
 	height: 4px;
-	background:#e1e8ed;
+	background-color: #6CBD7D;
+	/* background:#e1e8ed; */
 	border-left:20px solid #bdf5bd;
 	display: block;
 	margin: 20px 0;
 }
 div.sepContainer1 {
 	height: 4px;
-	background:#e1e8ed;
+	background-color: #6CBD7D;
+	/* background:#e1e8ed; */
 	border-left:20px solid #bdf5bd;
 	display: block;
 	margin: 10px 0 30px 0;
 }
 div.sepContainer2 {
 	height: 4px;
-	background:#e1e8ed;
+	background-color: #6CBD7D;
+	/* background:#e1e8ed; */
 	border-left:20px solid #bdf5bd;
 	display: block;
-	margin: 5px 0;
+	margin: 5px 0px;
 }
 div.blankSeparator {
 	background-color: #8FCD9C;
+	background-color: #e4eda8;
 	height: 20px;
 	margin:0px 0;
 	display: block;
@@ -68,7 +72,7 @@ div.blankSeparator2 {
 /****************************** HOME - Content Part - Logo&Menu ******************************/
 /* Header - Logo & Menu */
 #header {
-	background:#d0f8d0;
+	/* background:#d0f8d0; */
 	background:#bfd630;
 	/* background: #2FBD83; */
 	margin-top:0px;
@@ -76,14 +80,14 @@ div.blankSeparator2 {
 	/* width: 100%; */
 }
 .logo {
-	width: 33%;
+	/* width: 33%; */
 	float: left;
 	margin-right: 2px;
 	/* margin-top:45px; */
 	/* margin-bottom:10px; */
 }
 .mainmenu {
-	width: 66%;
+	width: 75%;
 	float:right;
 	margin-top: 60px;
 	margin-bottom: 0px;
@@ -155,7 +159,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	transition: all 0.5s ease-in-out;
 }
 .sf-menu li:hover { /* visited pseudo selector so IE6 applies text colour*/
-	background: rgba(215, 234, 238, 0.3);
+background: #d2e26e;
+/* background: #8FCD9C; */
+	/* background: rgba(215, 234, 238, 0.3); */
 	border-top:2px solid #fff;
 }
 .sf-menu li a {
@@ -168,7 +174,13 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	color: #414558;
 }
 li a#visited {
-	background: rgba(215, 234, 238, 0.3);
+	background:#bfd630;
+	/* background: #8FCD9C; */
+	/* background: rgba(215, 234, 238, 0.3); */
+}
+
+li a#visited:hover  {
+	background: #8FCD9C;
 }
 /*** submenu ***/
 .sf-menu li ul {
@@ -301,7 +313,7 @@ html[xmlns] .slides {
 /* Caption style */
 /* IE rgba() hack */
 .flex-caption {
-	zoom: 1;
+	/* zoom: 1; */
 	width: 96%;
 	padding: 2%;
 	margin: 0;
@@ -384,8 +396,9 @@ html[xmlns] .slides {
 	cursor: default;
 }
 /****************************** HOME - Content Part - Box One ******************************/
-.info .one_third {
-	background: #2FBD83;
+.info  .one_third, .info .full_width{
+	background: #6CBD7D;
+	/* background: #2FBD83; */
 	box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), 1px -1px 0px #efefef;
 	border-bottom:3px solid transparent;
 	-webkit-transition: all 0.3s ease;
@@ -393,13 +406,25 @@ html[xmlns] .slides {
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	
 }
 
+
 .info .one_third:hover {
+	cursor: default; 
 	border-bottom:3px solid #c45d69;
+	background: #8FCD9C;
 }
-.info, .infoleft, .infocenter, .inforight {
+ .info .full_width:hover
+ {
+	cursor: default; 
+	border-bottom:3px solid #c45d69;
+	background: #8FCD9C;
+}
+/* .info:hover { */
+	/* border-bottom:3px solid #c45d69; */
+	/* background: #8FCD9C; */
+/* } */
+.info .full_width,.infoleft, .infocenter, .inforight {
 	padding:20px 20px 15px 20px;
 }
 .info h2 {
@@ -407,7 +432,8 @@ html[xmlns] .slides {
 	color: white; 
 }
 .info p {
-	color: #D6F4EC;
+	/* color: #D6F4EC; */
+	color: white; 
 }
 
 .info a {
@@ -463,9 +489,11 @@ span.green {
 	transition: opacity 1s linear;
 }
 /****************************** HOME - Content Part - Box Three ******************************/
-.boxthree .one_third {
+.boxthree .one_third, .boxthree .one_half {
 	/* background:#e1e8ed; */
-	background: #2FBD83;
+	/* background: #2FBD83; */
+	background: #6CBD7D;
+	
 	box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), 1px -1px 0px #efefef;
 	border-bottom:3px solid transparent;
 	-webkit-transition: all 0.3s ease;
@@ -475,8 +503,9 @@ span.green {
 	transition: all 0.3s ease-in-out;
 	
 }
-.boxthree .one_third:hover {
+.boxthree .one_third, .boxthree .one_half:hover {
 	border-bottom:3px solid #c45d69;
+	background: #8FCD9C;
 }
 .boxthreeleft, .boxthreecenter, .boxthreeright {
 	padding:20px 20px 15px 20px;
@@ -504,7 +533,8 @@ span.green {
 	color: white; 
 }
 .boxthree p {
-	color: #D6F4EC;
+	/* color: #D6F4EC; */
+	color:white;
 }
 
 a.simple {
@@ -1220,7 +1250,7 @@ ul#articleCommentList li ul {
 	float: left;
 	text-align: right;
 	overflow: hidden;
-	background: #8FCD9C;
+	background: #e4eda8;
 	
 }
 .hentry .commentMeta p {
@@ -1244,7 +1274,7 @@ div.commentBody {
 	margin: 0px 0 20px 140px;
 }
 div.commentBody h3 {
-	background-color:#2FBD83;
+	background-color:#6CBD7D;
 
 	padding:5px;
 	font-size: 14px;
@@ -1518,6 +1548,10 @@ span.color {
 }
 /****************************** Shortcodes ******************************/
 /* Content Shortcodes */
+.full_width {
+	width: 96%;
+}
+
 .one_half {
 	width: 48%;
 }
@@ -1536,7 +1570,7 @@ span.color {
 .one_sixth {
 	width: 15%;
 }
-.one_half, .one_third, .two_third, .one_fourth, .one_fifth {
+.full_width, .one_half, .one_third, .two_third, .one_fourth, .one_fifth {
 	margin-right: 4%;
 	margin-bottom: 10px;
 	float: left;

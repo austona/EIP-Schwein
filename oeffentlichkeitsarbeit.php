@@ -1,3 +1,11 @@
+<?php
+require('Persistence.php');
+$comment_post_ID = 1;
+$db = new Persistence();
+$comments = $db->get_comments($comment_post_ID);
+$has_comments = (count($comments) > 0);
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -91,7 +99,7 @@
 				<li><a href="gallery.html">Andere</a></li>
               </ul>
             </li>
-            <li><a href="innovative_maßnahmen.html"><span class="home"><img src="images/about.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
+           <li><a href="innovative_maßnahmen.html"><span class="home"><img src="images/about.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
 			<ul>
                 <li><a href="tierwohl.php">Tierwohl/<br>Beschäftigung/<br>Fütterung</a></li>
 				<li><a href="betriebssichere_funktionsbereiche.php">Schaffung<br>betrieblicher<br>Funktionsbereiche</a></li>
@@ -134,99 +142,204 @@
 </div>
 
 <div id = "main" style = "background: #e4eda8;">
+<div class = "container">
+<div class = "blankSeparator"> </div>
+<div class = "blankSeparator"> </div>
+<!-- <div class = "sepContainer"> </div> -->
+<h1>Tierwohl, Beschäftigung, Fütterung</h1>
+<div class = "sepContainer"> </div>
+<!-- Home Content Part - Slider ==================================================
+================================================== -->
 
+<div class="flexslider">
+  <ul class="slides">
+    <li> <a href="#"><img src="images/modellbetrieb_1/berechnung_niedrigdruck.jpg" alt=""/></a> 
+	 <div class="flex-caption" style="overflow-x:auto;">
+	 <h3>Besucherfenster 1</h3>
+	 <p>Ein Besucherfenster bietet interessierten Verbrauchern jeder Zeit die Möglichkeit sich selbst ein Bild der modernen Tierhaltung zu machen.
+	 Vorteil ist, dass keine Keime in den Stall eingeschleppt werden aber trotzdem eine hohe Transparenz und damit Glaubwürdigkeit garantiert geboten
+	 wird. Besonders geeignet ist dies für Höfe innerorts, oder an viel genutzten Wander- oder Feldwegen. 
+	 Es besteht auch die Möglichkeit von innen verspiegelte Fensterscheiden zu nutzen, damit die Schweine nicht durch die Besucher gestört werden. 
+	 </p>
+	 </div>
+	</li>
+    <li> <img src="images/modellbetrieb_1/modellbetrieb_1_2.jpg" alt="" />
+	<div class = "flex-caption">
+	<h3>Besucherfenster 2</h3>
+	 <p>Ein Besucherfenster bietet interessierten Verbrauchern jeder Zeit die Möglichkeit sich selbst ein Bild der modernen Tierhaltung zu machen.
+	 Vorteil ist, dass keine Keime in den Stall eingeschleppt werden aber trotzdem eine hohe Transparenz und damit Glaubwürdigkeit garantiert geboten
+	 wird. Besonders geeignet ist dies für Höfe innerorts, oder an viel genutzten Wander- oder Feldwegen. 
+	 Es besteht auch die Möglichkeit von innen verspiegelte Fensterscheiden zu nutzen, damit die Schweine nicht durch die Besucher gestört werden. 
+	 </p>
+	</div>
+	</li>
+    <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_3.jpg" alt="" /></a>
+     <div class = "flex-caption">
+	<h3>Besuchergang</h3>
+	<p> 
+	Baulich etwas aufwendiger aber gut geeignet für geführte Stallbesichtigungen sind Besuchergänge in Kombination mit Sichtfenstern.  </p>
+	</div>
+    </li>
+	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_4.png" alt="" /></a>
+     <div class = "flex-caption">
+	<h3>Besuchersteg/ Plattform</h3>
+	<p>  </p>
+	</div>
+    </li>
+	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_4.png" alt="" /></a>
+     <div class = "flex-caption">
+	<h3>Schaukästen</h3>
+	<p>  Nicht jeder Stall hat die optimale Lage um Öffentlichkeitsarbeit zu betreiben, oder möchte das Risiko von Keimeinschleppung durch Besucher
+	eingehen. Auch ein Schaukasten am Wohnhaus im Dorf, an beliebten Wegen entlang der eigenen Wiesen und Felder oder nach Absprache an öffentlichen
+	Plätzen wie dem Rathaus, der Bushaltestelle oder der Schule kann der Öffentlichkeit einen guten Einblick in den Stall bieten. 
+	Regelmäßig mit neuen Fotos und Texten bestückt kann, auch in Kombination mit einer Sitzbank lädt er zum verweilen und lesen ein. </p>
+	</div>
+    </li>
+  </ul>
+</div>
+</div>
 <!-- Home Content Part - Box One ==================================================
 ================================================== -->
-<div class = "blankSeparator"> </div>
-<div class = "blankSeparator"> </div>
+<div class="blankSeparator">
+</div>
+<!--<div class="container"> -->
+  <!-- <div class="info"> -->
+    <!-- <div class="one_third"> -->
+	<!-- <section class = "infoleft"/> -->
+      <!-- <h2>Betriebsspiegel</h2> -->
+     <!-- <p><ul> -->
+	 <!-- <li>-Hier stehen dann</li> -->
+	 <!-- <li>-Einige Details</li> -->
+	 <!-- <li>-Zu dem vorgestellen</li> -->
+	 <!-- <li>-Modellbetrieb</li> -->
+	  <!-- <li>-Hier stehen dann</li> -->
+	 <!-- <li>-Einige Details</li> -->
+	 <!-- <li>-Zu dem vorgestellen</li> -->
+	 <!-- <li>-Modellbetrieb</li> -->
+	  <!-- <li>-Hier stehen dann</li> -->
+	 <!-- <li>-Einige Details</li> -->
+	 <!-- <li>-Zu dem vorgestellen</li> -->
+	 <!-- <li>-Modellbetrieb</li> -->
+	  <!-- <li>-Hier stehen dann</li> -->
+	 <!-- <li>-Einige Details</li> -->
+	 <!-- <li>-Zu dem vorgestellen</li> -->
+	 <!-- <li>-Modellbetrieb</li> -->
+	 
+	 
+	 <!-- </ul></p> -->
+	 <!-- </div> -->
+	
+    <!-- <div class="one_third"> -->
+	<!-- <section class = "infocenter" /> -->
+        <!-- <h2>Bauplan</h2> -->
+		<!-- <img id="bauplan1" src="images/home/karte.jpg" alt="Bauplan" width= "100%" height="100%"> -->
+		
+		<!-- <!-- The Modal --> 
+		<!-- <div id="bauplan1Modal" class="modal"> -->
 
+	<!-- <!-- The Close Button --> 
+	<!-- <span class="close" onclick="document.getElementById('bauplan1Modal').style.display='none'">&times;</span> -->
 
-<!-- container ends here --> 
-<!-- Home Content Part - Box Two ==================================================
+	<!-- <!-- Modal Content (The Image) --> 
+		<!-- <img class="modal-content" id="imgBauplan1"> -->
+
+	<!-- <!-- Modal Caption (Image Text) --> 
+	<!-- <div id="captionBauplan1"></div> -->
+	<!-- </div> -->
+        
+	<!-- </div>	 -->
+      <!-- <div class="one_third lastcolumn"> -->
+	  <!-- <section class = "inforight" /> -->
+        <!-- <h2>Beschreibung der Innovation</h2> -->
+       <!-- <p>Hier kommt also eine Beschreibung der Innovation hin. <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  -->
+	   <!-- sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam e -->
+	   <!-- t justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum  -->
+	   <!-- dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed  -->
+	   <!-- diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p> -->
+	   <!-- </div> -->
+    
+  <!-- </div> -->
+<!-- </div>
+
+    <!-- Blog Comments ==================================================
 ================================================== -->
+<div class = "container">
+    <!-- <section class="comments">-->
+	<!--<section id = "comments">-->
+      <div class="blankSeparator"></div>
+      <div class="sepContainer2"></div>
+      <h2>Kommentare</h2>
+      <div class="sepContainer2"></div>
+      <div class="blankSeparator"></div>
+      <div class="boxtwosep"></div>
+ 
+	  <!-- <div id="comments"> -->
+		<ol id="posts-list" class="hfeed<?php echo($has_comments?' has-comments':''); ?>">
+      <li class="no-comments" style = "color: #414550; font-size: 14px">Schreiben Sie den ersten Kommentar!</li>
+      <?php
+        foreach ($comments as &$comment) {
+          ?>
+          <li><article id="comment_<?php echo($comment['id']); ?>" class="hentry">	
+    				<div class="commentMeta">
+    					
+    						<p><?php echo( date('d.m.Y', strtotime($comment['date']) ) ); ?></p>
+    				</div>
 
-<!-- end container --> 
-<!-- Home Content Part - Box Three ==================================================
+    				<div class="commentBody">
+					
+					<h3><a class="url fn" href="#"><?php echo($comment['name']); ?></a> </h3>
+    					<p><?php echo($comment['message']); ?></p>
+    				</div>
+    			</article></li>
+          <?php
+        }
+      ?>
+		</ol>
+		
+		
+      <!-- </div> -->
+      <!-- end Comments --> 
+    
+    <!-- Blog Contact ==================================================
 ================================================== -->
-<div class="container boxthree">
-	<h1>Mastställe</h1>
-	<!-- <div class="blankSeparator"> -->
-	<div class="sepContainer"></div> 
+    <div id="contactForm">
+      <h2>Hinterlassen Sie einen Kommentar</h2>
+      <form action="post_comment.php" method="post" id="contact_form">
+        <div class="name">
+          <label for="name">Name:</label>
+          <p>Bitte geben Sie Ihren ganzen Namen ein</p>
+          <input id=name name=name type=text placeholder="z.B Max Mustermann" required />
+        </div>
+        <div class="email">
+          <label for="email">Ihre E-Mail Adresse</label>
+          <p> Bitte geben Sie Ihre E-Mail Adresse ein </p>
+          <input id=email name=email type=email placeholder="beispiel@domain.de" required />
+        </div>
+        <div class="message">
+          <label for="message">Ihre Nachricht</label>
+          <p> Bitte geben Sie hier Ihren Kommentar ein.</p>
+          <textarea id=message name=message placeholder = "Bitte geben Sie mindestens 5 Zeichen ein." rows=6 cols=10 required></textarea>
+        </div>
+        <div id="loader">
+			<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+          <input name = "submit" type="submit" value="Absenden" />
+        </div>
+		<!-- comment_post_ID value hard-coded as 1 -->
+   <!--  <input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" /> -->
 
-  <h2>Modellbetriebe</h2>
-  <!-- <div class="blankSeparator"></div> -->
-  <div class="one_third">
-    <section class="boxthreeleft"> <img src="images/maststall.jpg" alt=""/>
-      <h3>Modellbetrieb Nummer 1</h3>
-      <p>Hier kommt eine kurze Zusammenfassung zu Modellbetrieb 1.</p>
-      <a class ="simple" href="modellbetrieb_1.php">+ Erfahren Sie mehr</a> </section>
+
+      </form>
+    </div>
+	<!--</section>-->
+    <!-- end contactForm --> 
   </div>
-  <!-- one-third column ends here -->
-  <div class="one_third">
-    <section class="boxthreecenter"> <img src="images/maststall_2.jpg" alt=""/>
-      <h3>Modellbetrieb Nummer 2</h3>
-      <p>Hier kommt eine kurze Zusammenfassung zu Modellbetrieb 2.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here -->
-  <div class="one_third lastcolumn">
-    <section class="boxthreeright"> <img src="images/maststall_3.jpg" alt=""/>
-      <h3>Modellbetrieb Nummer 3</h3>
-      <p>Hier kommt eine kurze Zusammenfassung zu Modellbetrieb 3.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here --> 
-</div>
-<div class="container boxthree">
   <div class="blankSeparator"></div>
-  <div class="one_third">
-    <section class="boxthreeleft"> <img src="images/home/1.png" alt=""/>
-      <h3>Modellbetrieb Nummer 4</h3>
-      <p>Hier kommt eine kurze Zusammenfassung zu Modellbetrieb 4.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
   </div>
-  <!-- one-third column ends here -->
-  <div class="one_third">
-    <section class="boxthreecenter"> <img src="images/home/2.png" alt=""/>
-      <h3>Modellbetrieb Nummer 5</h3>
-      <p>Hier kommt eine kurze Zusammenfassung zu Modellbetrieb 5.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here -->
-  <div class="one_third lastcolumn">
-    <section class="boxthreeright"> <img src="images/home/3.png" alt=""/>
-      <h3>Modellbetrieb Nummer 6</h3>
-      <p>Hier kommt eine kurze Zusammenfassung zu Modellbetrieb 6.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here --> 
-</div>
-<div class="container boxthree">
-  <div class="blankSeparator"></div>
-  <div class="one_third">
-    <section class="boxthreeleft"> <img src="images/home/1.png" alt=""/>
-      <h3>Modellbetrieb Nummer 7</h3>
-      <p>Hier kommt eine kurze Zusammenfassung zu Modellbetrieb 7.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here -->
-  <div class="one_third">
-    <section class="boxthreecenter"> <img src="images/home/2.png" alt=""/>
-      <h3>Modellbetrieb Nummer 8</h3>
-      <p>Hier kommt eine kurze Zusammenfassung zu Modellbetrieb 8.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here -->
-  <div class="one_third lastcolumn">
-    <section class="boxthreeright"> <img src="images/home/3.png" alt=""/>
-      <h3>Modellbetrieb Nummer 9</h3>
-      <p>Hier kommt eine kurze Zusammenfassung zu Modellbetrieb 9.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here --> 
-</div>
+  
+
+
 <!-- container ends here -->
-<!-- <div class="blankSeparator1"></div> -->
+
 
 
 <!--Footer ==================================================
@@ -263,10 +376,10 @@
       <!-- <p>Visit <a href="http://anarieldesign.com/" rel="nofollow">Anariel Design</a> and find more interesting things.</p> -->
     <!-- </div> -->
   <!-- </div> -->
-  <!-- <!-- container ends here -->  -->
+  <!-- <!-- container ends here --> 
 <!-- </div> -->
 <!-- footer ends here --> 
-</div>
+<!-- </div> -->
 <!-- Copyright ==================================================
 ================================================== -->
 <div id="copyright">
@@ -293,6 +406,7 @@
 ================================================== --> 
 <!-- Scripts ==================================================
 ================================================== --> 
+<script src = "js/modellbetrieb1js.js" type = "text/javascript"></script>
 <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <!-- Main js files --> 
 <script src="js/screen.js" type="text/javascript"></script> 
@@ -313,5 +427,3 @@
 
 </body>
 </html>
-
-<!--  -->

@@ -99,7 +99,7 @@ $has_comments = (count($comments) > 0);
 				<li><a href="gallery.html">Andere</a></li>
               </ul>
             </li>
-            <li><a href="innovative_maßnahmen.html"><span class="home"><img src="images/about.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
+           <li><a href="innovative_maßnahmen.html"><span class="home"><img src="images/about.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
 			<ul>
                 <li><a href="tierwohl.php">Tierwohl/<br>Beschäftigung/<br>Fütterung</a></li>
 				<li><a href="betriebssichere_funktionsbereiche.php">Schaffung<br>betrieblicher<br>Funktionsbereiche</a></li>
@@ -146,139 +146,124 @@ $has_comments = (count($comments) > 0);
 <div class = "blankSeparator"> </div>
 <div class = "blankSeparator"> </div>
 <!-- <div class = "sepContainer"> </div> -->
-<h1> Modellbetrieb 1 </h1>
+<h1>Tierwohl, Beschäftigung, Fütterung</h1>
 <div class = "sepContainer"> </div>
 <!-- Home Content Part - Slider ==================================================
 ================================================== -->
 
 <div class="flexslider">
   <ul class="slides">
-    <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_1.jpg" alt=""/></a> 
+    <li> <a href="#"><img src="images/innovative_maßnahmen/vollautomatisiertes_einstreuen.png" alt=""/></a> 
 	 <div class="flex-caption" style="overflow-x:auto;">
-	 <table>
-	 <tr> 
-		<th>Stallkonzept</th>
-		<th>Nutzung im Modellbetrieb</th>
-	</tr>
-	<tr>
-		<td>Planbefestigter Liegebereich mit Deckel im Stallinneren</td>
-		<td>500 Tiere je Stall</td>
-	</tr>
-	<tr>
-		<td>Perforierter Boden im Fressbereich innen</td>
-		<td>16 Tiere je Bucht</td>
-	</tr>
-	<tr>
-		<td>Perforierter Aktivitätsbereich außen</td>
-		<td>Platzangebot: 1,67 m<sup>2</sup> je Mastschwein (0,67 m<sup>2</sup> außen + 1 m<sup>2</sup>)
-		</td>
-	</tr>
-	<tr>
-		<td>Querlüftung</td>
-		<td>Vermarktung: Konventionell, zum Teil über regionalen Metzger</td>
-	</tr>
-	<tr>
-		<td>4 Klimazonen</td>
-	</tr>
-	
-</table>
-</div>
+	 <h2>Arbeitszeiteinsparung</h2>
+	 <h3>Vollautomatisiertes Einstreuen</h3>
+	 <p>Vollautomatisches, zeitgesteuertes Einstreuen beschränkt den Arbeitsaufwand auf das Bestücken des Ballenauflösers. 
+	 So kann (mehrmals) täglich zeitgesteuert frisch nachgestreut werden. Dies verhindert wiederum eine Verkotung im Liegebereich 
+	 #und dient der Beschäftigung (Langschwanz). In wie weit die Staubbelastung im Vergleich zum händischen Einstreuen reduziert oder 
+	 erhöht wird und wie sich der Strohverbrauch verändert wird in den EIP-Ställen getestet. Auch welche Einstreuhäufigkeit und Menge 
+	 am günstigsten ist muss getestet werden. Investitionskosten belaufen sich zwischen … und ….€. 
+	 </p>
+	 </div>
 	</li>
-    <li> <img src="images/modellbetrieb_1/modellbetrieb_1_2.jpg" alt="" />
+    <li> <img src="images/innovative_maßnahmen/mechanisiertes_einstreuen.png" alt="" />
 	<div class = "flex-caption">
-	<h3>Fußbodenheizung</h3>
-	<p> 
-	Die Fußbodenheizung soll die Akzeptanz dieser Fläche als Ruhe- und Liegebereich 
-	 fördern und dadurch das Koten der Tiere in diesem Bereich  verhindern. Durch  die längliche Gestaltung der Liegefläche und der Fußbodenheizung 
-	 können zudem zwei Klimabereiche in der Kiste geschaffen werden. Den hinteren wärmeren Bereich, unter dem sich der Vorlauf der Fußbodenheizung
-	 befindet, und der vordere Bereich, der durch den Rücklauf der Fußbodenheizung nur leicht angewärmt wir. Durch diese Wahlmöglichkeit  soll den 
-	 Tieren stets ein in Größe und Klima optimal angepasster Liegebereich zur Verfügung stehen.
-	</p>
+	<h2>Arbeitszeiteinsparung</h2>
+	<h3>Teilautomatisiertes, mechanisiertes Einstreuen</h3>
+	 <p>Neben vollautomatischen, zeitgesteuerten Systemen bietet sich für einen geringen Einstreubedarf (nach AFP-Premium) auch mechanische 
+	 Einstreuhilfen, mit deutlich geringerem Investitionsbedarf haben. In einigen Testbetrieben wurde ein Korb, der an der Schiene im Gang, 
+	 entlang der Buchten geschoben werden kann angebracht. Dieser kann über die gesamte Länge des Stalls geschoben werden. Außerhalb des 
+	 Stalles kann dieser mit einem Front- oder Radlader mit einem großen Ballen bestückt werden. Damit lässt sich der tägliche Aufwand 
+	 für das Einstreuen deutlich verringern und erleichtern. Im Gegensatz zum vollautomatischen Einstreuen kann jede Bucht individuell 
+	 nach Bedarf nachgestreut werden. Für befahrbare Flächen bieten sich Systeme für Frontlader und Radlader an. 
+	 </p>
 	</div>
 	</li>
     <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_3.jpg" alt="" /></a>
      <div class = "flex-caption">
-	<h3>Kistengestaltung</h3>
+	 <h2>Arbeitszeiteinsparung</h2>
+	<h3>Gestaltung der Buchtenwände</h3>
 	<p> 
-	Im Deckel der Liegekiste befinden sich Lüftungsöffnungen die je nach Bedarf mit einem Schieber geöffnet werden können, 
-	sodass Schadgase und Feuchtigkeit entweichen können. Ein Windschutz unter den Schiebern verhindert zu hohen Lichteinfall und Zugluft,
-	sodass der Liegebereich trotz geöffneter Lüftungsöffnung als Liegefläche attraktiv bleibt.</p>
+	Werden befestigte Flächen im Stall oder im Auslauf genutzt müssen diese auch während der Aufzucht bzw. Mast einfach und schnell abgeschoben
+	werden können, um eine gute Hygiene sicherzustellen. Durch den Anbau von planbefestigten Ausläufen kann z.B. relativ günstig zusätzliche 
+	eingestreute Fläche geschaffen werden. Die Gestaltung der Buchtenwände ist dabei von großer Bedeutung, da das aus dem Weg schaffen von
+	Buchtenwänden und sonstigen Aufstallungen ansonsten schnell soviel Zeit wie das Abschieben selbst benötigt. Ziel muss es sein, befestigte
+	Flächen wenigen Handgriffen befahrbar zu machen und die Schweine möglichst schonend in ungefährliche Bereiche wegzusperren. Dazu gibt es
+	verschiedene Möglichkeiten.<br>
+	Paralellogrammverschiebung: Eine Auslaufgestaltung, bei der die gesamten  Buchtenwände paralellogramartig verschiebbar sind ermöglicht es diese 
+	schnell beiseite zu schaffen. Ein händisches Öffnen und Schließen der einzelnen Tore ist damit nicht mehr nötig. Ist die Öffnung zum Stall 
+	richtig platziert werden die Tiere zudem bei langsamen Schwenken der Tore zugleich in den Stall getrieben.
+	</p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_4.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/heizung.png" alt="" /></a>
      <div class = "flex-caption">
-	<h3>Arbeitswirtschaftliches Einstreuen durch mechanisierte Einstreuvorlage</h3>
-	<p> 
-	Der Kontrollgang wird mit einer Schiene versehen an der ein, mit einem Strohballen bestückter Korb entlanggeführt werden kann. 
-	#Dieser Korb kann über die gesamte Stalllänge hinweggeschoben werden, sodass jede Bucht individuell mit Einstreu versorgt werden kann.
-	Die Einstreuvorrichtung wird am Ende des Kontrollganges von außen per Radlader mit Strohballen beladen.
-	Dies soll den Arbeitsaufwand des Einstreuens erheblich senken (Ressourcenschonung) und ermöglicht tägliches Einstreuen je nach Bedarf.
-	Wodurch wiederum sichergestellt wird, dass der Liegebereich trocken bleibt und als solcher von den Tieren angenommen wird
-	(Schaffung von Funktionsbereichen). </p>
+	 <h2>Energieeffizienz
+	<h3>Fußboden und/oder Wandheizung</h3>
+	<p>Durch eine Boden- und/oder Wandheizung kann ein Kleinklima mit höherer Temperatur geschaffen werden, so kann der gesamte Sall 
+	auf geringerer  Temperatur gefahren werden. Weiterer Energieeinsparungen ergeben sich in Kombination mit einer Solarthermieanlage 
+	auf dem Stalldach. </p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_5.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/einstreu.png" alt="" /></a>
      <div class = "flex-caption">
-	<h3>Querlüftung (geschlossen)</h3>
-	<p> 
-	An der Außenwand sowie zwischen Fütterungs- und Außenbereich des Stallgebäudes sind Lüftungsklappen installiert, 
-	sodass eine Querlüftung stattfinden kann. Die Steuerung der Lüftungsklappen kann manuell nach Bedarf oder automatisch über 
-	eine Temperaturregelung erfolgen. Dadurch kann auf Ventilatoren verzichtet werden und Energie eingespart werden. </p>
+	 <h2>Energieeffizienz</h2>
+	<h3>Einstreu</h3>
+	<p>Durch die wärmedämmende Wirkung von Einstreu im Liegebereich kann die Raumtemperatur im Vergleich zu einstreulosen Stallgebäuden 
+	gesenkt und dadurch Energie eingespart werden.   </p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_6.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/querlüftung_offen.png" alt="" /></a>
      <div class = "flex-caption">
+	 <h2>Energieeffizienz</h2>
 	<h3>Querlüftung (geöffnet)</h3>
-	<p> 
-	An der Außenwand sowie zwischen Fütterungs- und Außenbereich des Stallgebäudes sind Lüftungsklappen installiert, 
-	sodass eine Querlüftung stattfinden kann. Die Steuerung der Lüftungsklappen kann manuell nach Bedarf oder automatisch über 
-	eine Temperaturregelung erfolgen. Dadurch kann auf Ventilatoren verzichtet werden und Energie eingespart werden. </p>
+	<p>Eine Außenklimaställe mit Querlüftung ermöglichen einen Verzicht auf Ventilatoren und wirkt sich damit positiv auf den Energieverbrauch aus.
+	Großzügige Lüftungsklappen können je nach Temperatur im Stall automatisch oder manuell geöffnet werden. Windnetzte verhinder Zugluft. 
+	Probleme bestehen jedoch noch immer bei der Genehmigung oder Bedenken von Anwohnern bezüglich Geruch, da Abluft nicht gezielt abgeleitet wird.  </p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_7.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/querlüftung_zu.png" alt="" /></a>
      <div class = "flex-caption">
-	<h3>Ressourcenschonendes Baumaterial</h3>
-	<p> 
-	Eine Holzdecke mit Schüttung zur Dämmung und verbesserter Feuchtigkeitsaufnahme sowie eine Ziegeleindeckung vorgesehen. 
-	Diese soll zudem Vorteile durch einen geringeren Rückzugsraum für Schädlinge bieten. Durch die Gestaltung des Daches werden 
-	außerdem positive Effekte hinsichtlich des Stallklimas erwartet</p>
+	 <h2>Energieeffizienz</h2>
+	<h3>Querlüftung (geschlossen)</h3>
+	<p>Eine Außenklimaställe mit Querlüftung ermöglichen einen Verzicht auf Ventilatoren und wirkt sich damit positiv auf den Energieverbrauch aus. 
+	Großzügige Lüftungsklappen können je nach Temperatur im Stall automatisch oder manuell geöffnet werden. Windnetzte verhinder Zugluft.
+	Probleme bestehen jedoch noch immer bei der Genehmigung oder Bedenken von Anwohnern bezüglich Geruch, da Abluft nicht gezielt abgeleitet wird.   </p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_8.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/emissionsmindernde_spalten.png" alt="" /></a>
      <div class = "flex-caption">
-	<h3>Dusche</h3>
-	<p> 
-	Im unüberdachten Bereich der Ausläufe (Kotbereich) sind  Duschen zur Abkühlung angebracht, diese können über eine  Zeitschaltuhr gesteuert werden. 
-	Der Wasserbedarf der Duschen kann zudem über Regenwasser gedeckt werden. Das Angebot der Dusche unterstützt die Bedürfnisbefriedigung 
-	der Tiere zur Thermoregulation und verbessert so nicht nur das Tierwohl sondern unterstützt auch das Abkoten der Tiere im perforierten
- 	Außenbereich. Auch der Blickkontakt zur nächsten Bucht trägt dazu bei.   </p>
+	 <h2>Emmisionseinsparung</h2>
+	<h3>Emissionsmindernde Spaltenböden</h3>
+	<p>Eine Kot-Harn-Trennung durch emissionsmindernde Spaltenböden verringert Ammoniak- und Geruchsemissionen und verbessert so die Stallluft.
+	Die Kanalböden sind mit einem V-förmigen Gefälle zur Kanalmitte hin ausgestattet. Die Mitte dieses Kanals weist eine offene Rinne mit Gefälle auf,
+	sodass Harn und Nässe kontinuierlich ablaufen kann. Ein V-Förmiger Schieber  räumt zeitgesteuert den verbleibenden Kot aus dem Kanal. 
+	Die verbesserte Stallluft wirkt sich positiv auf die Gesundheit von Mensch- und Tier aus, zudem soll getestet werden. lassen sich diese 
+	Spaltenboden besser mit einer teilbefestigter, eingestreuter Liege kombinieren als herkömmliche Stausysteme, die bei Stroheinsatz schnell
+	verstopfen.  </p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_9.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/gefälle.png" alt="" /></a>
      <div class = "flex-caption">
-	<h3>Blickkontakt</h3>
-	<p> 
-	Sichtfenster im Liegebereich und dem Fressbereich bieten dem Verbraucher die Möglichkeit sich über die Schweinehaltung auf dem Betrieb ein Bild 
-	zu machen. Die Fenster sind von innen undurchsichtig, sodass die Tiere nicht gestört werden. An den Fenstern sind zudem Informationstafeln 
-	angebracht die über die einzelnen Funktionsbereiche aufklären.</p>
+	 <h2>Emmisionseinsparung</h2>
+	<h3>Emissionsminderung durch Gefälle und Ablaufrinne (1/2)</h3>
+	<p>Einfaches aber wirksames Mittel zur Reduktion von NH3 Emissionen ist der rasche Abfluss von Harn über ein Gefälle auf planbefestigten Flächen,
+	insbesondere im Auslauf. 
+	 </p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_10.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/ablaufrinne.png" alt="" /></a>
      <div class = "flex-caption">
-	<h3>Weitere Elemente wirken sich zudem positiv auf das Tierwohl aus und unterstützen die Schaffung von Funktionsbereichen</h3>
-	<ul style = "list-style-type: circle;">
-		<li  style = "padding: 0.5em;">Angebot von Beschäftigungsmaterial im äußeren, überdachten Bereich. Hier wird eine Raufe eingesetzt die mit Stroh, Heu, Gras 
-		oder Silage gefüllt werden kann. Zudem ist die Raufe über eine Schiene höhenverstellbar und in Richtung des Kontrollgangs mechanisch
-		schwenkbar. Dies  ermöglicht eine Arbeitssparende Befüllung vom Kontrollgang aus. </li>
- 
-		<li style = "padding: 0.5em;">Tier-Fressplatzverhältniss: 4:1 :Vermeidung von Rangkämpfen und ermöglicht synchrones Fressen </li>
-		<li style = "padding: 0.5em;">Platzangebot: Im Modellbetrieb stehen jedem Mastschwein 1,67 m2 zur Verfügung, davon 0,67 m2 pro Tier Auslauf und 1 m² im Innenbereich
- (0,7 m² eingestreute, planbefestigte schmale Liegefläche und 0,3 m² Fressbereich)</li>
-		<li style = "padding: 0.5em;">Beckentränken zum artgerechten Saufen aus offenen Wasserflächen</li>
-
-	</ul>
+	 <h2>Emmisionseinsparung</h2>
+	<h3>Emissionsminderung durch Gefälle und Ablaufrinne (2/2)</h3>
+	<p>Über eine Ablaufrinne im tiefsten Punkt des Gefälles wird der Harn abgeführt. 
+	In Kombination mit eingestreuten, teilbefestigten Flächen ist die Herausforderung die Ablaufrinne so zu gestalten, dass diese nicht verstopft.
+	In den Bauprojekten dieses EIP Projektes werden unterschiedliche Ausführungen getestet.   </p>
 	</div>
     </li>
+	
+	
+	
+	
   </ul>
 </div>
 </div>

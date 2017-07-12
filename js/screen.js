@@ -23,7 +23,7 @@
 			$('.flexslider').flexslider({
             animation: "fade",              //String: Select your animation type, "fade" or "slide"
 			slideDirection: "horizontal",   //String: Select the sliding direction, "horizontal" or "vertical"
-			slideshow: true,                //Boolean: Animate slider automatically
+			slideshow: false,                //Boolean: Animate slider automatically
 			slideshowSpeed: 4000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
 			animationDuration: 8000,         //Integer: Set the speed of animations, in milliseconds
 			directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)

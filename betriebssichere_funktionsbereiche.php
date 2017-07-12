@@ -1,3 +1,11 @@
+<?php
+require('Persistence.php');
+$comment_post_ID = 1;
+$db = new Persistence();
+$comments = $db->get_comments($comment_post_ID);
+$has_comments = (count($comments) > 0);
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -134,204 +142,189 @@
 </div>
 
 <div id = "main" style = "background: #e4eda8;">
+<div class = "container">
+<div class = "blankSeparator"> </div>
+<div class = "blankSeparator"> </div>
+<!-- <div class = "sepContainer"> </div> -->
+<h1>Tierwohl, Beschäftigung, Fütterung</h1>
+<div class = "sepContainer"> </div>
 <!-- Home Content Part - Slider ==================================================
 ================================================== -->
+
 <div class="flexslider">
   <ul class="slides">
-    <li> <a href="#"><img src="images/flexslider/3.jpg" alt=""/></a> 
-	 <p class="flex-caption">Das hier ist Bauprojekt 1.</p>
+    <li> <a href="#"><img src="images/modellbetrieb_1/berechnung_niedrigdruck.jpg" alt=""/></a> 
+	 <div class="flex-caption" style="overflow-x:auto;">
+	 <h3>Berechnung/ Niedrigdruck Versprühung </h3>
+	 <p>Berechnung/ Niedrigdruck Versprühung. Der Kotbereich wird vorzugsweise an kühlen, feuchten Stellen mit Blickkkontakt zur nächsten Bucht 
+	 angelegt. Mit einer Beregnung im Spaltenbodenbereich-, oder  oberhalb befahrbarer Flächen trägt sie dazu bei, dass dort  
+	 der Kotbereich durch die Schweine angelegt wird. Bei hohen Temperaturen verhindert diese Abkühlungsmöglichkeit auch das Koten 
+	 im planbefestigten, eingestreuten Liegebereich.  </p>
+	 </div>
 	</li>
-    <li> <img src="images/flexslider/6.jpg" alt="" /> </li>
-    <li> <a href="#"><img src="images/flexslider/4.jpg" alt="" /></a>
-     
+    <li> <img src="images/modellbetrieb_1/modellbetrieb_1_2.jpg" alt="" />
+	<div class = "flex-caption">
+	<h3>Fußbodenheizung im Liegebereich</h3>
+	<p> 
+	Die an den Bedarf und die Raumtemperatur angepasste Wärmeversorgung unterstützt die Akzeptanz und die Nutzung der befestigten Fläche als 
+	warmen Ruhe- und Liegebereich. Durch die Schaffung eines Mikroklimas im Liegebereich kann zudem die Raumtemperatur der Stallhülle geringer
+	gehalten werden. 
+	</p>
+	</div>
+	</li>
+    <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_3.jpg" alt="" /></a>
+     <div class = "flex-caption">
+	<h3>LED Orientierungslicht im Ferkelnest und Liegebereich</h3>
+	<p> 
+Ein LED Orientierungslicht im Ferkelnest (Abferkelstall) und/oder der Ferkelkiste (Ferkelaufzuchtstall) könnte zum schnelleren Auffinden 
+des warmen Nestes bei Nacht führen. Dadurch könnten Erdrückungsverluste reduziert werden und ein Auskühlen der Ferkel verhindert werden.   </p>
+	</div>
     </li>
   </ul>
+</div>
 </div>
 <!-- Home Content Part - Box One ==================================================
 ================================================== -->
 <div class="blankSeparator">
 </div>
-<div class="container">
-  <div class="info">
-    <div class="one_third">
-	<section class = "infoleft">
-      <h2>Was macht die OPG Schwein?</h2>
-     <p style = "text-align: justify;">Die OPG Schwein hat zum Ziel innovative Baukonzepte in Bezug auf Tier- und Umweltschutz zu entwickeln, 
-	 zu bewerten und in der Praxis zu verbreiten. Dies soll dadurch erreicht werden, dass eine Plattform geschaffen 
-	 wird, in der Landwirte, Berater, Vermarktung und Wissenschaftler direkt miteinander auf Augenhöhe kommunizieren 
-	 und so innovative aber auch funktionsfähige und arbeitswirtschaftlich günstige Lösungen gefunden werden. 
-	 Als Plattform dienen dabei die regelmäßigen Treffen der OPG in denen innovative Bauvorhaben entwickelt und mögliche Probleme
-	 und Lösungen diskutiert werden. Dieser Bottom-Up Ansatz ermöglicht es innovative bauliche Ansätze aus der Forschung schon in der
-	 Planungsphase mit der Praxiserfahrung der Landwirte zu kombinieren und unter praxisnahen Bedingungen zu erproben. Im Falle eines 
-	 positiven Fazits sichert dies die rasche Verbreitung in der Praxis.</p>
-	 </section>
-	 </div>
-    <div class="one_third">
-	<section class = "infocenter">
-        <h2>Was ist ein EIP Projekt?</h2>
-        <p> Text_EIP_Projekt: Links zur EIP Datenbank </p>
-	</section>
-	</div>	
-      <div class="one_third lastcolumn">
-	  <section class = "inforight">
-        <h2>Was ist eine Operationelle Gruppe?</h2>
-       <p> Text_Operationelle_Gruppe: kurze Erläuterung </p>
-	   </section>
-	   </div>
+<!--<div class="container"> -->
+  <!-- <div class="info"> -->
+    <!-- <div class="one_third"> -->
+	<!-- <section class = "infoleft"/> -->
+      <!-- <h2>Betriebsspiegel</h2> -->
+     <!-- <p><ul> -->
+	 <!-- <li>-Hier stehen dann</li> -->
+	 <!-- <li>-Einige Details</li> -->
+	 <!-- <li>-Zu dem vorgestellen</li> -->
+	 <!-- <li>-Modellbetrieb</li> -->
+	  <!-- <li>-Hier stehen dann</li> -->
+	 <!-- <li>-Einige Details</li> -->
+	 <!-- <li>-Zu dem vorgestellen</li> -->
+	 <!-- <li>-Modellbetrieb</li> -->
+	  <!-- <li>-Hier stehen dann</li> -->
+	 <!-- <li>-Einige Details</li> -->
+	 <!-- <li>-Zu dem vorgestellen</li> -->
+	 <!-- <li>-Modellbetrieb</li> -->
+	  <!-- <li>-Hier stehen dann</li> -->
+	 <!-- <li>-Einige Details</li> -->
+	 <!-- <li>-Zu dem vorgestellen</li> -->
+	 <!-- <li>-Modellbetrieb</li> -->
+	 
+	 
+	 <!-- </ul></p> -->
+	 <!-- </div> -->
+	
+    <!-- <div class="one_third"> -->
+	<!-- <section class = "infocenter" /> -->
+        <!-- <h2>Bauplan</h2> -->
+		<!-- <img id="bauplan1" src="images/home/karte.jpg" alt="Bauplan" width= "100%" height="100%"> -->
+		
+		<!-- <!-- The Modal --> 
+		<!-- <div id="bauplan1Modal" class="modal"> -->
+
+	<!-- <!-- The Close Button --> 
+	<!-- <span class="close" onclick="document.getElementById('bauplan1Modal').style.display='none'">&times;</span> -->
+
+	<!-- <!-- Modal Content (The Image) --> 
+		<!-- <img class="modal-content" id="imgBauplan1"> -->
+
+	<!-- <!-- Modal Caption (Image Text) --> 
+	<!-- <div id="captionBauplan1"></div> -->
+	<!-- </div> -->
+        
+	<!-- </div>	 -->
+      <!-- <div class="one_third lastcolumn"> -->
+	  <!-- <section class = "inforight" /> -->
+        <!-- <h2>Beschreibung der Innovation</h2> -->
+       <!-- <p>Hier kommt also eine Beschreibung der Innovation hin. <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  -->
+	   <!-- sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam e -->
+	   <!-- t justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum  -->
+	   <!-- dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed  -->
+	   <!-- diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p> -->
+	   <!-- </div> -->
     
-  </div>
-</div>
-<!-- container ends here --> 
-<!-- Home Content Part - Karte und Ablauf -->
-<div class = "container scheme_map">
-	<div class = "sepContainer1"> </div>
-	
-	<!-- <h2> Ablaufschema </h2>  -->
-	<!-- <img class = "effectfront" src = "images/home/schaubild.jpg"/> -->
-	
-	
-	<!-- <h2> Karte </h2>  -->
-	<!-- <img src = "images/home/karte.jpg"/> -->
-	
+  <!-- </div> -->
+<!-- </div>
 
- <div class = "one_half">
- <h2> Ablaufschema </h2>
-	<!-- Trigger the Modal -->
-	<img id="ablaufschema" src="images/home/schaubild.jpg" alt="Schaubild" width= "100%" height="100%">
-
-	<!-- The Modal -->
-		<div id="ablaufschemaModal" class="modal">
-
-	<!-- The Close Button -->
-	<span class="close" onclick="document.getElementById('ablaufschemaModal').style.display='none'">&times;</span>
-
-	<!-- Modal Content (The Image) -->
-		<img class="modal-content" id="imgAblaufschema">
-
-	<!-- Modal Caption (Image Text) -->
-	<div id="captionAblaufschema"></div>
-	</div>
-</div>
-<div class = "one_half lastcolumn">
-<h2> Karte </h2>
-<!-- Trigger the Modal -->
-	<img id="karte" src="images/home/karte.jpg" alt="Karte" width= "100%" height="100%">
-
-	<!-- The Modal -->
-		<div id="karteModal" class="modal">
-
-	<!-- The Close Button -->
-	<span class="close" onclick="document.getElementById('karteModal').style.display='none'">&times;</span>
-
-	<!-- Modal Content (The Image) -->
-		<img class="modal-content" id="imgKarte">
-
-	<!-- Modal Caption (Image Text) -->
-	<div id="captionKarte"></div>
-	</div>
-
-</div>
-</div>
-<!-- end container -->
-<!-- Home Content Part - Box Two ==================================================
+    <!-- Blog Comments ==================================================
 ================================================== -->
-<div class="container clients">
-  <div class="sepContainer"></div>
-  <h2>Beteiligte Parteien</h2>
-  <div id = "first_row">
-  <div class="one_sixth"> 
-  <a target="_blank" href="https://www.uni-hohenheim.de/">
-	<img src="images/home/hohenheim_logo.jpg" alt=""/> 
-	</a>
-	
+<div class = "container">
+    <!-- <section class="comments">-->
+	<!--<section id = "comments">-->
+      <div class="blankSeparator"></div>
+      <div class="sepContainer2"></div>
+      <h2>Kommentare</h2>
+      <div class="sepContainer2"></div>
+      <div class="blankSeparator"></div>
+      <div class="boxtwosep"></div>
+ 
+	  <!-- <div id="comments"> -->
+		<ol id="posts-list" class="hfeed<?php echo($has_comments?' has-comments':''); ?>">
+      <li class="no-comments" style = "color: #414550; font-size: 14px">Schreiben Sie den ersten Kommentar!</li>
+      <?php
+        foreach ($comments as &$comment) {
+          ?>
+          <li><article id="comment_<?php echo($comment['id']); ?>" class="hentry">	
+    				<div class="commentMeta">
+    					
+    						<p><?php echo( date('d.m.Y', strtotime($comment['date']) ) ); ?></p>
+    				</div>
+
+    				<div class="commentBody">
+					
+					<h3><a class="url fn" href="#"><?php echo($comment['name']); ?></a> </h3>
+    					<p><?php echo($comment['message']); ?></p>
+    				</div>
+    			</article></li>
+          <?php
+        }
+      ?>
+		</ol>
+		
+		
+      <!-- </div> -->
+      <!-- end Comments --> 
+    
+    <!-- Blog Contact ==================================================
+================================================== -->
+    <div id="contactForm">
+      <h2>Hinterlassen Sie einen Kommentar</h2>
+      <form action="post_comment.php" method="post" id="contact_form">
+        <div class="name">
+          <label for="name">Name:</label>
+          <p>Bitte geben Sie Ihren ganzen Namen ein</p>
+          <input id=name name=name type=text placeholder="z.B Max Mustermann" required />
+        </div>
+        <div class="email">
+          <label for="email">Ihre E-Mail Adresse</label>
+          <p> Bitte geben Sie Ihre E-Mail Adresse ein </p>
+          <input id=email name=email type=email placeholder="beispiel@domain.de" required />
+        </div>
+        <div class="message">
+          <label for="message">Ihre Nachricht</label>
+          <p> Bitte geben Sie hier Ihren Kommentar ein.</p>
+          <textarea id=message name=message placeholder = "Bitte geben Sie mindestens 5 Zeichen ein." rows=6 cols=10 required></textarea>
+        </div>
+        <div id="loader">
+			<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+          <input name = "submit" type="submit" value="Absenden" />
+        </div>
+		<!-- comment_post_ID value hard-coded as 1 -->
+   <!--  <input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" /> -->
+
+
+      </form>
+    </div>
+	<!--</section>-->
+    <!-- end contactForm --> 
   </div>
-  <div class="one_sixth"> 
-	<a target="_blank" href="https://www.hfwu.de/hfwu-start/">
-	<img src="images/home/hfwu_logo.jpg" alt=""/> 
-	</a>
-  </div>
-  <div class="one_sixth"> 
-  <a target="_blank" href="http://www.agriconcept.de/content/inhalte/startseite/index.html">
-	<img src="images/home/agriconcept_logo.png" alt=""/> 
-	</a>  
-	
-  </div>
-  <div class="one_sixth"> 
-  <a target="_blank" href="http://www.lsz-bw.de/pb/,Lde/Startseite">
-	<img src="images/home/lsz_logo.jpg" alt=""/> 
-	</a>
-  </div>
-  <div class="one_sixth"> 
-	<a target="_blank" href="http://www.rudolfwiedmann.de/">
-	<img src="images/home/rwiedmann_logo.jpg" alt=""/> 
-	</a>
-  </div>
-  <div class="one_sixth lastcolumn"> 
-	<a target="_blank" href="http://www.schauer-agrotronic.com/">
-	<img src="images/home/schauer_logo.png" alt=""/> 
-	</a>
-  </div>
-  </div>
-  <div id = "second_row" style = "float:left;">
-  <div class="one_fifth"> 
-	<a target="_blank" href="https://www.edeka.de/suedwest/homepage.jsp">
-	<img src="images/home/edeka_logo.png" alt=""/> 
-	</a>
-  </div>
-  <div class="one_fifth"> 
-	<a target="_blank" href="http://www.ueg-ferkel.de/ueg-hohenlohe-franken.html">
-	<img src="images/home/ueg_logo.jpg" alt=""/> 
-	</a>
-  </div>
-  <div class="one_fifth"> 
-	<a target="_blank" href="http://www.hornstein-stalleinrichtungen.de/">
-	<img src="images/home/hohenheim_logo.jpg" alt=""/> 
-	</a>
-  </div>
-  <div class="one_fifth"> 
-	<a target="_blank" href="http://www.naturland.de/de/">
-	<img src="images/home/naturland_logo.png" alt=""/> 
-	</a>
-  </div>
-  <div class="one_fifth lastcolumn">
-	<a target="_blank" href="https://www.besh.de/">
-	<img src="images/home/besh_logo.png" alt=""/> 
-	</a>
-  </div>
+  <div class="blankSeparator"></div>
   </div>
   
-</div>
-<!-- end container --> 
-<!-- Home Content Part - Box Three ==================================================
-================================================== -->
-<div class="container boxthree">
-  <div class="sepContainer1"><!-- --></div>
-  <h2>Aktuelles</h2>
-  <!-- <div class="blankSeparator"></div> -->
-  <div class="one_third">
-    <section class="boxthreeleft"> <img src="images/home/1.png" alt=""/>
-      <h3>Neuigkeit Nummer 1</h3>
-      <p>Das ist neuestens passiert.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here -->
-  <div class="one_third">
-    <section class="boxthreecenter"> <img src="images/home/2.png" alt=""/>
-      <h3>Neuigkeit Nummer 2</h3>
-      <p>Davor ist das passiert.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here -->
-  <div class="one_third lastcolumn">
-    <section class="boxthreeright"> <img src="images/home/3.png" alt=""/>
-      <h3>Neugikeit Nummer 3</h3>
-      <p>Und davor ist das passiert.</p>
-      <a class ="simple" href="#">+ Erfahren Sie mehr</a> </section>
-  </div>
-  <!-- one-third column ends here --> 
-</div>
+
+
 <!-- container ends here -->
-<!-- <div class="blankSeparator1"></div> -->
+
 
 
 <!--Footer ==================================================
@@ -371,7 +364,7 @@
   <!-- <!-- container ends here --> 
 <!-- </div> -->
 <!-- footer ends here --> 
-</div>
+<!-- </div> -->
 <!-- Copyright ==================================================
 ================================================== -->
 <div id="copyright">
@@ -395,6 +388,27 @@
 </div>
 <!-- copyright ends here --> 
 <!-- End Document
+================================================== --> 
+<!-- Scripts ==================================================
+================================================== --> 
+<script src = "js/modellbetrieb1js.js" type = "text/javascript"></script>
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
+<!-- Main js files --> 
+<script src="js/screen.js" type="text/javascript"></script> 
+<!-- Tooltip --> 
+<script src="js/poshytip-1.0/src/jquery.poshytip.min.js" type="text/javascript"></script> 
+<!-- Tabs --> 
+<script src="js/tabs.js" type="text/javascript"></script> 
+<!-- Tweets --> 
+<script src="js/jquery.tweetable.js" type="text/javascript"></script> 
+<!-- Include prettyPhoto --> 
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script> 
+<!-- Include Superfish --> 
+<script src="js/superfish.js" type="text/javascript"></script> 
+<script src="js/hoverIntent.js" type="text/javascript"></script> 
+<!-- Flexslider --> 
+<script src="js/jquery.flexslider-min.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
 
 </body>
 </html>
