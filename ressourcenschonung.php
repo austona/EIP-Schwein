@@ -56,7 +56,7 @@ $has_comments = (count($comments) > 0);
 <!-- Scripts ==================================================
 ================================================== --> 
 
-<script src = "js/homejs.js" type = "text/javascript"></script>
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <!-- Main js files --> 
 <script src="js/screen.js" type="text/javascript"></script> 
@@ -85,7 +85,7 @@ $has_comments = (count($comments) > 0);
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-      <div class="logo"><a href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png" alt=""/></a></div>
+      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png"  alt=""/></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">
@@ -242,7 +242,7 @@ $has_comments = (count($comments) > 0);
 	verstopfen.  </p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/innovative_maßnahmen/gefälle.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/gefaelle.png" alt="" /></a>
      <div class = "flex-caption">
 	 <h2>Emmisionseinsparung</h2>
 	<h3>Emissionsminderung durch Gefälle und Ablaufrinne (1/2)</h3>
@@ -258,6 +258,17 @@ $has_comments = (count($comments) > 0);
 	<p>Über eine Ablaufrinne im tiefsten Punkt des Gefälles wird der Harn abgeführt. 
 	In Kombination mit eingestreuten, teilbefestigten Flächen ist die Herausforderung die Ablaufrinne so zu gestalten, dass diese nicht verstopft.
 	In den Bauprojekten dieses EIP Projektes werden unterschiedliche Ausführungen getestet.   </p>
+	</div>
+    </li>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/oberflaeche_verringerung.png" alt="" /></a>
+     <div class = "flex-caption">
+	 <h2>Verringerung der Oberfläche</h2>
+	<h3>Emissionsminderung durch Gefälle und Ablaufrinne (2/2)</h3>
+	<p>
+	Grundsätzlich hängen die Ammoniak und Geruchsemissionen von der emittierenden Fläche ab. Eine Strukturierung der Bucht mit vorgesehenem Kotbereich
+	senkt damit die Emissionen, wenn diese auch von den Schweinen angenommen wird. Auch tiefe, schmale, Güllekanäle mit geringerer Oberfläche und 
+	damit Luftkontakt verringern Emissionen.
+	</p>
 	</div>
     </li>
 	

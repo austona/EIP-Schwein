@@ -56,7 +56,7 @@ $has_comments = (count($comments) > 0);
 <!-- Scripts ==================================================
 ================================================== --> 
 
-<script src = "js/homejs.js" type = "text/javascript"></script>
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <!-- Main js files --> 
 <script src="js/screen.js" type="text/javascript"></script> 
@@ -85,7 +85,7 @@ $has_comments = (count($comments) > 0);
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-      <div class="logo"><a href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png" alt=""/></a></div>
+      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png"  alt=""/></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">
@@ -153,7 +153,7 @@ $has_comments = (count($comments) > 0);
 
 <div class="flexslider">
   <ul class="slides">
-    <li> <a href="#"><img src="images/modellbetrieb_1/berechnung_niedrigdruck.jpg" alt=""/></a> 
+    <li> <a href="#"><img src="images/innovative_maßnahmen/verspruehung.png" alt=""/></a> 
 	 <div class="flex-caption" style="overflow-x:auto;">
 	 <h3>Berechnung/ Niedrigdruck Versprühung </h3>
 	 <p>Diese ermöglicht den Tieren je nach individuellem Befinden eine Thermoregulation. 
@@ -161,7 +161,7 @@ $has_comments = (count($comments) > 0);
 	 oder befahrbaren Außenbereich abkoten. </p>
 	 </div>
 	</li>
-    <li> <img src="images/modellbetrieb_1/modellbetrieb_1_2.jpg" alt="" />
+    <li> <img src="images/innovative_maßnahmen/tier_fressplatz_verhaeltnis.png" alt="" />
 	<div class = "flex-caption">
 	<h3>Tier-Fressplatz Verhältnis</h3>
 	<p> 
@@ -170,7 +170,7 @@ $has_comments = (count($comments) > 0);
 	</p>
 	</div>
 	</li>
-    <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_3.jpg" alt="" /></a>
+    <li> <a href="#"><img src="images/innovative_maßnahmen/sulmoeglichkeit.png" alt="" /></a>
      <div class = "flex-caption">
 	<h3>Sulmöglichkeit</h3>
 	<p> 
@@ -182,7 +182,7 @@ $has_comments = (count($comments) > 0);
 	Besonders bei hohen Temperaturen schützt diese Möglichkeit der Abkühlung vor Verkotung der Liegeflächen. </p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_4.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/hochdruckvernebelung.png" alt="" /></a>
      <div class = "flex-caption">
 	<h3>Hochdruckvernebelung</h3>
 	<p> 

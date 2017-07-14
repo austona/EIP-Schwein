@@ -56,7 +56,7 @@ $has_comments = (count($comments) > 0);
 <!-- Scripts ==================================================
 ================================================== --> 
 
-<script src = "js/homejs.js" type = "text/javascript"></script>
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <!-- Main js files --> 
 <script src="js/screen.js" type="text/javascript"></script> 
@@ -85,7 +85,7 @@ $has_comments = (count($comments) > 0);
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-      <div class="logo"><a href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png" alt=""/></a></div>
+      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png"  alt=""/></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">

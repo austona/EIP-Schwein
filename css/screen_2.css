@@ -253,8 +253,8 @@ span.home {
 	padding: 0;
 	list-style: none;
 }
-/* FlexSlider Necessary Styles */
-/* *********************************/ */
+FlexSlider Necessary Styles
+*********************************/
 .flexslider {
 	margin: 0px 0 0 0;
 	padding: 0;
@@ -265,25 +265,17 @@ span.home {
 .flexslider .slides > li {
 	display: none;
 	-webkit-backface-visibility: hidden;
-	
-	
-}
- /* Hide the slides before the JS is loaded. Avoids image jumping */
+} Hide the slides before the JS is loaded. Avoids image jumping
 .flexslider .slides img {
-	padding-left: 80px;
+	/* width: 100%; */
 	display: block;
+	margin-left: auto; margin-right: auto;
 	
-	/* margin-left: auto; margin-right: auto; */
-	
-}
-.flexslider .slides iframe {
-	padding: 80px;
-	display: block;
 }
 .flex-pauseplay span {
 	text-transform: capitalize;
 }
-/* Clearfix for the .slides element */
+Clearfix for the .slides element
 .slides:after {
 	content: ".";
 	display: block;
@@ -298,13 +290,13 @@ html[xmlns] .slides {
 * html .slides {
 	height: 1%;
 }
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you */
- /* * include js that eliminates this class on page load */
+No JavaScript Fallback
+If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load
 .no-js .slides > li:first-child {
 	display: block;
 }
-/* FlexSlider Default Theme */
+FlexSlider Default Theme
 *********************************/
 .flexslider {
 	position: relative;
@@ -316,13 +308,13 @@ html[xmlns] .slides {
 .flexslider .slides > li {
 	position: relative;
 }
-/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+Suggested container for "Slide" animation setups. Can replace this with your own, if you wish
 .flex-container {
 	zoom: 1;
 	position: relative;
 }
-/* Caption style */
-/* IE rgba() hack */
+Caption style
+IE rgba() hack
 .flex-caption {
 	zoom: 1;
 	/* width: 88%; */
@@ -387,7 +379,7 @@ html[xmlns] .slides {
 	margin: 0 0 0 5px;
 	display: inline-block;
 	zoom: 1;
-/* *display: inline; */
+*display: inline;
 }
 .flex-control-nav li:first-child {
 	margin: 0;
@@ -1095,7 +1087,7 @@ li#beauty, li#woman, li#people {
 .post {
 	margin-bottom:40px;
 	padding:10px;
-	background:#8FCD9C;
+	background:#2FBD83;
 	border:1px solid #efefef;
 	opacity: 1;
 	filter: alpha(opacity=100);
@@ -1633,14 +1625,6 @@ span.color {
 .flex-caption {
  width: 100%;
 }
-.flexslider .slides img {
-	padding: 0px;
-	display: block;
-}
-.flexslider .slides iframe {
-	padding: 0px;
-	display: block;
-}
 span.left {
  padding:0 5px;
 }
@@ -1665,14 +1649,6 @@ width: 100%;
 .flex-caption {
  width: 100%;
 }
-.flexslider .slides img {
-	padding: 0px;
-	display: block;
-}
-.flexslider .slides iframe {
-	padding: 0px;
-	display: block;
-}
 .blog p.meta, .singleblog p.meta {
  padding:20px 0px 50px 10px;
  background:#efefef;
@@ -1689,14 +1665,6 @@ ul.tabs {
 }
 .flex-caption {
  width: 100%;
-}
-.flexslider .slides img {
-	padding: 0px;
-	display: block;
-}
-.flexslider .slides iframe {
-	padding: 0px;
-	display: block;
 }
 form#contact_form textarea {
  width: 300px;
@@ -1715,17 +1683,6 @@ ul.tabs li {
 float: left;
 width: 100%;
 margin-top:-340px;
-}
-.flex-caption {
- width: 100%;
-}
-.flexslider .slides img {
-	padding: 0px;
-	display: block;
-}
-.flexslider .slides iframe {
-	padding: 0px;
-	display: block;
 }
 ul.pagination li a {
  padding:5px 8px;

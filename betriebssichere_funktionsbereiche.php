@@ -56,7 +56,6 @@ $has_comments = (count($comments) > 0);
 <!-- Scripts ==================================================
 ================================================== --> 
 
-<script src = "js/homejs.js" type = "text/javascript"></script>
 <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <!-- Main js files --> 
 <script src="js/screen.js" type="text/javascript"></script> 
@@ -71,6 +70,8 @@ $has_comments = (count($comments) > 0);
 <!-- Include Superfish --> 
 <script src="js/superfish.js" type="text/javascript"></script> 
 <script src="js/hoverIntent.js" type="text/javascript"></script> 
+<script src="js/froogaloop.js" type="text/javascript"></script> 
+<script src="js/fitvids.js" type="text/javascript"></script> 
 <!-- Flexslider --> 
 <script src="js/jquery.flexslider-min.js" type="text/javascript"></script> 
 <script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
@@ -85,7 +86,7 @@ $has_comments = (count($comments) > 0);
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-      <div class="logo"><a href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png" alt=""/></a></div>
+      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png"  alt=""/></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">
@@ -146,23 +147,36 @@ $has_comments = (count($comments) > 0);
 <div class = "blankSeparator"> </div>
 <div class = "blankSeparator"> </div>
 <!-- <div class = "sepContainer"> </div> -->
-<h1>Tierwohl, Beschäftigung, Fütterung</h1>
+<h1>Schaffung betriebssicherer <br><br> Funktionsbereiche</h1>
 <div class = "sepContainer"> </div>
 <!-- Home Content Part - Slider ==================================================
 ================================================== -->
 
 <div class="flexslider">
   <ul class="slides">
-    <li> <a href="#"><img src="images/modellbetrieb_1/berechnung_niedrigdruck.jpg" alt=""/></a> 
+    <li> <a href="#"><img  src="images/innovative_maßnahmen/verspruehung.png" alt=""/></a> 
 	 <div class="flex-caption" style="overflow-x:auto;">
-	 <h3>Berechnung/ Niedrigdruck Versprühung </h3>
-	 <p>Berechnung/ Niedrigdruck Versprühung. Der Kotbereich wird vorzugsweise an kühlen, feuchten Stellen mit Blickkkontakt zur nächsten Bucht 
+	 <h3>Beregnung/ Niedrigdruckversprühung</h3>
+	 <p>Der Kotbereich wird vorzugsweise an kühlen, feuchten Stellen mit Blickkkontakt zur nächsten Bucht 
 	 angelegt. Mit einer Beregnung im Spaltenbodenbereich-, oder  oberhalb befahrbarer Flächen trägt sie dazu bei, dass dort  
 	 der Kotbereich durch die Schweine angelegt wird. Bei hohen Temperaturen verhindert diese Abkühlungsmöglichkeit auch das Koten 
 	 im planbefestigten, eingestreuten Liegebereich.  </p>
 	 </div>
 	</li>
-    <li> <img src="images/modellbetrieb_1/modellbetrieb_1_2.jpg" alt="" />
+	
+	<li>
+      <iframe id="player_1" src="https://player.vimeo.com/video/217625834?api=1&player_id=player_1" width = "800px;" height = "500px;" 
+	  frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	  <div class="flex-caption">
+	 <h3>Beregnung/ Niedrigdruckversprühung</h3>
+	 <p>Berechnung/ Niedrigdruck Versprühung. Der Kotbereich wird vorzugsweise an kühlen, feuchten Stellen mit Blickkkontakt zur nächsten Bucht 
+	 angelegt. Mit einer Beregnung im Spaltenbodenbereich-, oder  oberhalb befahrbarer Flächen trägt sie dazu bei, dass dort  
+	 der Kotbereich durch die Schweine angelegt wird. Bei hohen Temperaturen verhindert diese Abkühlungsmöglichkeit auch das Koten 
+	 im planbefestigten, eingestreuten Liegebereich.  </p>
+	 </div>
+    </li>
+	
+    <li> <img src="images/innovative_maßnahmen/fussbodenheizung.png" alt="" />
 	<div class = "flex-caption">
 	<h3>Fußbodenheizung im Liegebereich</h3>
 	<p> 
@@ -172,7 +186,22 @@ $has_comments = (count($comments) > 0);
 	</p>
 	</div>
 	</li>
-    <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_3.jpg" alt="" /></a>
+	<li> <img src="images/innovative_maßnahmen/wandheizung.png" alt="" />
+	<div class = "flex-caption">
+	<h3>Wandheizung im Liegebereich</h3>
+	<p> 
+	Eine kühle Betonwand im Liegebereich der Ferkel und Schweine
+	macht den hinteren Teil des Liegebereichs bei der 
+	Schlafplatzsuche schnell unbeliebt und läuft Gefahr
+	als Kotbereich genutzt zu werden. Eine Wandheizung 
+	bietet nicht nur Möglichkeiten ein Kleinklima zu schaffen,
+	sonder trägt auch dazu bei, dass der nur schwer zu reinigende
+	Liegebereich als solcher von den Tieren angenommen wird und 
+	sauber bleibt. 
+	</p>
+	</div>
+	</li>
+    <li> <a href="#"><img src="images/innovative_maßnahmen/LED_Orientierungslicht.png" alt="" /></a>
      <div class = "flex-caption">
 	<h3>LED Orientierungslicht im Ferkelnest und Liegebereich</h3>
 	<p> 
@@ -391,7 +420,6 @@ des warmen Nestes bei Nacht führen. Dadurch könnten Erdrückungsverluste reduz
 ================================================== --> 
 <!-- Scripts ==================================================
 ================================================== --> 
-<script src = "js/modellbetrieb1js.js" type = "text/javascript"></script>
 <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <!-- Main js files --> 
 <script src="js/screen.js" type="text/javascript"></script> 

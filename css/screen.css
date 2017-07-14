@@ -34,11 +34,14 @@ div.sepContainer2 {
 	margin: 5px 0;
 }
 div.blankSeparator {
-	background-color: #8FCD9C;
+	background-color: #e4eda8;
 	height: 20px;
 	margin:0px 0;
 	display: block;
 	
+}
+div.blankSeparator:hover {
+	cursor: default; 
 }
 div.blankSeparator1 {
 	height: 1px;
@@ -1054,7 +1057,7 @@ li#beauty, li#woman, li#people {
 	transition: opacity 0.5s linear;
 }
 .blog img {
-	background:#bfd6e4;
+	background:#2FBD83;
 	padding:10px;
 	margin-left:-10px;
 	margin-bottom:10px;

@@ -11,9 +11,10 @@
 ================================================== -->
 
 <meta charset="utf-8">
-<title>EIP Projekt Schwein</title>
-<meta name="description" content="Place to put your description text">
-<meta name="author" content="">
+<title>EIP Projekt der OPG Schwein</title>
+<meta name="description" content="Homepage des EIP Projekts der PG Schwein">
+<meta name="author" content="Anton Benz, Anja Krepart">
+<meta name = "keywords" content = "EIP, Schwein, OPG, Projekt">
 <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -28,7 +29,7 @@
 
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/skeleton.css">
-<link rel="stylesheet" href="css/screen.css">
+<link rel="stylesheet" href="css/screen_1.css">
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
 
 <!-- Favicons ==================================================
@@ -43,41 +44,62 @@
 ================================================== -->
 
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<!--================================================== --> 
+<!-- Scripts ==================================================
+================================================== --> 
+
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
+<!-- Main js files --> 
+<script src="js/screen.js" type="text/javascript"></script> 
+<!-- Tooltip --> 
+<script src="js/poshytip-1.0/src/jquery.poshytip.min.js" type="text/javascript"></script> 
+<!-- Tabs --> 
+<script src="js/tabs.js" type="text/javascript"></script> 
+<!-- Tweets --> 
+<script src="js/jquery.tweetable.js" type="text/javascript"></script> 
+<!-- Include prettyPhoto --> 
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script> 
+<!-- Include Superfish --> 
+<script src="js/superfish.js" type="text/javascript"></script> 
+<script src="js/hoverIntent.js" type="text/javascript"></script> 
+<!-- Flexslider --> 
+<script src="js/jquery.flexslider-min.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
+</head>
 <body>
 
 <!-- Home - Content Part ==================================================
 ================================================== -->
 <div id="header">
   <div class="container header" style = "width: 90%";> 
+  <!-- <div class="container header"> -->
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-		
-      <div class="logo"><a href="index.html"><img src="images/logo_eip.png" alt=""/></a></div>
-	  
-	  
+      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png"  alt=""/></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">
             <li><a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span>HOME</a></li>
-			 <li><a href="portfolio.html"><span class="home"><img src="images/portfolio.png" alt="" /></span>BAUPROJEKTE</a>
+			 <li><a href="#"><span class="home"><img src="images/portfolio.png" alt="" /></span>BAUPROJEKTE</a>
               <ul>
-                <li><a href="gallery.html">Maststall</a></li>
-				<li><a href="gallery.html">Ferkelaufzucht</a></li>
+                <li><a href="mastbetriebe.html">Maststall</a></li>
+				<li><a href="mastbetriebe.html">Ferkelaufzucht</a></li>
 				<li><a href="gallery.html">Abferkelställe</a></li>
-				<li><a href="gallery.html">Wartesauen/<br><br>Deckzentrum</a></li>
+				<li><a href="gallery.html">Wartesauen/<br>Deckzentrum</a></li>
 				<li><a href="gallery.html">Andere</a></li>
               </ul>
             </li>
-            <li><a href="about.html"><span class="home"><img src="images/about.png" alt="" /></span>INNOVATIVE <br> MAßNAHMEN</a>
+            <li><a href="innovative_maßnahmen.html"><span class="home"><img src="images/about.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
 			<ul>
-                <li><a href="gallery.html">Tierwohl/<br>Beschäftigung/<br>Fütterung</a></li>
-				<li><a href="gallery.html">Schaffung<br>betrieblicher<br>Funktionsbereiche</a></li>
-				<li><a href="gallery.html">Öffentlichkeitsarbeit/<br>Verbraucherakzeptanz</a></li>
-				<li><a href="gallery.html">Reduktion von<br>Emmissionen</a></li>
+                <li><a href="tierwohl.php">Tierwohl/<br>Beschäftigung/<br>Fütterung</a></li>
+				<li><a href="betriebssichere_funktionsbereiche.php">Schaffung<br>betrieblicher<br>Funktionsbereiche</a></li>
+				<li><a href="oeffentlichkeitsarbeit.php">Öffentlichkeitsarbeit/<br>Verbraucherakzeptanz</a></li>
+				<li><a href="ressourcenschonung.php">Reduktion von<br>Emmissionen</a></li>
               </ul>
 			  </li>
-           <li><a href="features.html"><span class="home"><img src="images/features.png" alt="" /></span>FÜR DEN <br> VERBRAUCHER</a></li>
+           <li><a href="features.html"><span class="home"><img src="images/features.png" alt="" /></span>FÜR DEN VERBRAUCHER</a></li>
             <li><a href="blog.html"><span class="home"><img src="images/blog.png" alt="" /></span>NEWS</a>
             </li>
             
@@ -89,7 +111,6 @@
 			</li>
 			
           </ul>
-		  </div>
         </div>
         
         <!-- Responsive Menu -->
@@ -107,12 +128,12 @@
             <option value="contact.html">Kontakt</option>
           </select>
         </form>
-      
+      </div>
     </header>
   </div>
 </div>
 
-<div id = "main" style = "background: #E1FBEA;">
+<div id = "main" style = "background: #e4eda8;">
 <div class = "container">
 <div class = "blankSeparator"> </div>
 <div class = "blankSeparator"> </div>
@@ -329,26 +350,6 @@
 </div>
 <!-- copyright ends here --> 
 <!-- End Document
-================================================== --> 
-<!-- Scripts ==================================================
-================================================== --> 
-<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
-<!-- Main js files --> 
-<script src="js/screen.js" type="text/javascript"></script> 
-<!-- Tooltip --> 
-<script src="js/poshytip-1.0/src/jquery.poshytip.min.js" type="text/javascript"></script> 
-<!-- Tabs --> 
-<script src="js/tabs.js" type="text/javascript"></script> 
-<!-- Tweets --> 
-<script src="js/jquery.tweetable.js" type="text/javascript"></script> 
-<!-- Include prettyPhoto --> 
-<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script> 
-<!-- Include Superfish --> 
-<script src="js/superfish.js" type="text/javascript"></script> 
-<script src="js/hoverIntent.js" type="text/javascript"></script> 
-<!-- Flexslider --> 
-<script src="js/jquery.flexslider-min.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
-</head>
+
 </body>
 </html>

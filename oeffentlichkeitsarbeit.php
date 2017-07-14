@@ -56,7 +56,7 @@ $has_comments = (count($comments) > 0);
 <!-- Scripts ==================================================
 ================================================== --> 
 
-<script src = "js/homejs.js" type = "text/javascript"></script>
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <!-- Main js files --> 
 <script src="js/screen.js" type="text/javascript"></script> 
@@ -85,7 +85,7 @@ $has_comments = (count($comments) > 0);
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-      <div class="logo"><a href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png" alt=""/></a></div>
+      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png"  alt=""/></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">
@@ -146,16 +146,16 @@ $has_comments = (count($comments) > 0);
 <div class = "blankSeparator"> </div>
 <div class = "blankSeparator"> </div>
 <!-- <div class = "sepContainer"> </div> -->
-<h1>Tierwohl, Beschäftigung, Fütterung</h1>
+<h1>Öffentlichkeitsarbeit und<br><br>Verbraucherakzeptanz</h1>
 <div class = "sepContainer"> </div>
 <!-- Home Content Part - Slider ==================================================
 ================================================== -->
 
 <div class="flexslider">
   <ul class="slides">
-    <li> <a href="#"><img src="images/modellbetrieb_1/berechnung_niedrigdruck.jpg" alt=""/></a> 
+    <li> <a href="#"><img src="images/innovative_maßnahmen/besucherfenster.png" alt=""/></a> 
 	 <div class="flex-caption" style="overflow-x:auto;">
-	 <h3>Besucherfenster 1</h3>
+	 <h3>Besucherfenster</h3>
 	 <p>Ein Besucherfenster bietet interessierten Verbrauchern jeder Zeit die Möglichkeit sich selbst ein Bild der modernen Tierhaltung zu machen.
 	 Vorteil ist, dass keine Keime in den Stall eingeschleppt werden aber trotzdem eine hohe Transparenz und damit Glaubwürdigkeit garantiert geboten
 	 wird. Besonders geeignet ist dies für Höfe innerorts, oder an viel genutzten Wander- oder Feldwegen. 
@@ -163,17 +163,7 @@ $has_comments = (count($comments) > 0);
 	 </p>
 	 </div>
 	</li>
-    <li> <img src="images/modellbetrieb_1/modellbetrieb_1_2.jpg" alt="" />
-	<div class = "flex-caption">
-	<h3>Besucherfenster 2</h3>
-	 <p>Ein Besucherfenster bietet interessierten Verbrauchern jeder Zeit die Möglichkeit sich selbst ein Bild der modernen Tierhaltung zu machen.
-	 Vorteil ist, dass keine Keime in den Stall eingeschleppt werden aber trotzdem eine hohe Transparenz und damit Glaubwürdigkeit garantiert geboten
-	 wird. Besonders geeignet ist dies für Höfe innerorts, oder an viel genutzten Wander- oder Feldwegen. 
-	 Es besteht auch die Möglichkeit von innen verspiegelte Fensterscheiden zu nutzen, damit die Schweine nicht durch die Besucher gestört werden. 
-	 </p>
-	</div>
-	</li>
-    <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_3.jpg" alt="" /></a>
+    <li> <a href="#"><img src="images/innovative_maßnahmen/besuchergang.png" alt="" /></a>
      <div class = "flex-caption">
 	<h3>Besuchergang</h3>
 	<p> 
@@ -186,7 +176,7 @@ $has_comments = (count($comments) > 0);
 	<p>  </p>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_4.png" alt="" /></a>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/schaukasten.png" alt="" /></a>
      <div class = "flex-caption">
 	<h3>Schaukästen</h3>
 	<p>  Nicht jeder Stall hat die optimale Lage um Öffentlichkeitsarbeit zu betreiben, oder möchte das Risiko von Keimeinschleppung durch Besucher
