@@ -166,7 +166,7 @@ $has_comments = (count($comments) > 0);
 	
 	<li>
       <iframe id="player_1" src="https://player.vimeo.com/video/217625834?api=1&player_id=player_1" width = "800px;" height = "500px;" 
-	  frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	  frameborder="0" marginwidth = "0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	  <div class="flex-caption">
 	 <h3>Beregnung/ Niedrigdruckversprühung</h3>
 	 <p>Berechnung/ Niedrigdruck Versprühung. Der Kotbereich wird vorzugsweise an kühlen, feuchten Stellen mit Blickkkontakt zur nächsten Bucht 

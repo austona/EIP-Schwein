@@ -48,102 +48,104 @@
 	  
 	  });
 	  
-	  // jQuery(document).ready(function ()
-// { 
+	  jQuery(document).ready(function ()
+{ 
 
-  // // Vimeo API nonsense
-  // var player = document.getElementById('player_1');
-  // $f(player).addEvent('ready', ready);
+  // Vimeo API nonsense
+  var player = document.getElementById('player_1');
+  $f(player).addEvent('ready', ready);
  
-  // function addEvent(element, eventName, callback) {
-    // if (element.addEventListener) {
-      // element.addEventListener(eventName, callback, false)
-    // } else {
-      // element.attachEvent(eventName, callback, false);
-    // }
-  // }
- 
-  // function ready(player_id) {
-    // var froogaloop = $f(player_id);
-    // froogaloop.addEvent('play', function(data) {
-      // $('.flexslider').flexslider("pause");
-    // });
-    // froogaloop.addEvent('pause', function(data) {
-      // $('.flexslider').flexslider("play");
-    // });
-  // }
- 
- 
-  // // Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
-  // $(".flexslider")
-    // .fitVids()
-    // .flexslider({
-      // animation: "slide",
-	  // slideshow: false,      
-      // useCSS: false,
-      // animationLoop: false,
-      // smoothHeight: true,
-      // before: function(slider){
-        // $f(player).api('pause');
-      // }
-	// });
-	var vimeoPlayers = jQuery('.flexslider').find('iframe'), player;
-
-for (var i = 0, length = vimeoPlayers.length; i < length; i++) {
-        player = vimeoPlayers[i];
-        $f(player).addEvent('ready', ready);
-}
-
-function addEvent(element, eventName, callback) {
+  function addEvent(element, eventName, callback) {
     if (element.addEventListener) {
-        element.addEventListener(eventName, callback, false)
+      element.addEventListener(eventName, callback, false)
     } else {
-        element.attachEvent(eventName, callback, false);
+      element.attachEvent(eventName, callback, false);
     }
-}
-
-function ready(player_id) {
+  }
+ 
+  function ready(player_id) {
     var froogaloop = $f(player_id);
     froogaloop.addEvent('play', function(data) {
-     jQuery('.flexslider').flexslider("pause");
+      $('.flexslider').flexslider("pause");
     });
-
     froogaloop.addEvent('pause', function(data) {
-        jQuery('.flexslider').flexslider("play");
+      $('.flexslider').flexslider("play");
     });
-}
-
-jQuery(".flexslider")
-
-.flexslider({
-    animation: "slide",
-    animationLoop: true,
-    smoothHeight: true,
+  }
+ 
+ 
+  // Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
+  $(".flexslider")
+    .fitVids()
+    .flexslider({
+      animation: "slide",
+	  slideshow: false,      
+      useCSS: false,
+      animationLoop: false,
+      smoothHeight: true,
+      before: function(slider){
+        $f(player).api('pause');
+      }
+	});
 	
-    slideshow: false,
-    useCSS: false,
-    before: function(slider){
-        if (slider.slides.eq(slider.currentSlide).find('iframe').length !== 0)
-           $f( slider.slides.eq(slider.currentSlide).find('iframe').attr('id') ).api('pause');
-           /* ------------------  YOUTUBE FOR AUTOSLIDER ------------------ */
-           playVideoAndPauseOthers($('.play3 iframe')[0]);
-    }
-
-
 });
+	// var vimeoPlayers = jQuery('.flexslider').find('iframe'), player;
 
-function playVideoAndPauseOthers(frame) {
-$('iframe').each(function(i) {
-var func = this === frame ? 'playVideo' : 'stopVideo';
-this.contentWindow.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
-});
-}
+// for (var i = 0, length = vimeoPlayers.length; i < length; i++) {
+        // player = vimeoPlayers[i];
+        // $f(player).addEvent('ready', ready);
+// }
 
-/* ------------------ PREV & NEXT BUTTON FOR FLEXSLIDER (YOUTUBE) ------------------ */
-$('.flex-next, .flex-prev').click(function() {
-playVideoAndPauseOthers($('.play3 iframe')[0]);
-});
-  });
+// function addEvent(element, eventName, callback) {
+    // if (element.addEventListener) {
+        // element.addEventListener(eventName, callback, false)
+    // } else {
+        // element.attachEvent(eventName, callback, false);
+    // }
+// }
+
+// function ready(player_id) {
+    // var froogaloop = $f(player_id);
+    // froogaloop.addEvent('play', function(data) {
+     // jQuery('.flexslider').flexslider("pause");
+    // });
+
+    // froogaloop.addEvent('pause', function(data) {
+        // jQuery('.flexslider').flexslider("play");
+    // });
+// }
+
+// jQuery(".flexslider")
+
+// .flexslider({
+    // animation: "slide",
+    // animationLoop: true,
+    // smoothHeight: true,
+	
+    // slideshow: false,
+    // useCSS: false,
+    // before: function(slider){
+        // if (slider.slides.eq(slider.currentSlide).find('iframe').length !== 0)
+           // $f( slider.slides.eq(slider.currentSlide).find('iframe').attr('id') ).api('pause');
+           // /* ------------------  YOUTUBE FOR AUTOSLIDER ------------------ */
+           // playVideoAndPauseOthers($('.play3 iframe')[0]);
+    // }
+
+
+// });
+
+// function playVideoAndPauseOthers(frame) {
+// $('iframe').each(function(i) {
+// var func = this === frame ? 'playVideo' : 'stopVideo';
+// this.contentWindow.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+// });
+// }
+
+// /* ------------------ PREV & NEXT BUTTON FOR FLEXSLIDER (YOUTUBE) ------------------ */
+// $('.flex-next, .flex-prev').click(function() {
+// playVideoAndPauseOthers($('.play3 iframe')[0]);
+// });
+  // });
     // });
 
 		

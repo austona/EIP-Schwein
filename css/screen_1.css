@@ -277,7 +277,7 @@ span.home {
 	
 }
 .flexslider .slides iframe {
-	padding: 80px;
+	padding-left: 80px;
 	display: block;
 }
 .flex-pauseplay span {
@@ -360,7 +360,8 @@ html[xmlns] .slides {
 	display: block;
 	background:  url(../images/flexslider/bg_direction_nav.png) no-repeat;
 	position: absolute;
-	top: 50%;
+	top: 375px;
+	/* bottom: 0px; */
 	cursor: pointer;
 	text-indent: -999em;
 }
@@ -420,6 +421,8 @@ html[xmlns] .slides {
 	font-size: 12px;
 	line-height: 15px;
 }
+
+
 /****************************** HOME - Content Part - Box One ******************************/
 .info  .one_third, .info .full_width{
 	background: #6CBD7D;
@@ -1641,6 +1644,18 @@ span.color {
 	padding: 0px;
 	display: block;
 }
+.flex-direction-nav a {
+	width:52px;
+	height: 52px;
+	margin: -15px 0 0;
+	display: block;
+	background:  url(../images/flexslider/bg_direction_nav.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	/* bottom: 0px; */
+	cursor: pointer;
+	text-indent: -999em;
+}
 span.left {
  padding:0 5px;
 }
@@ -1672,6 +1687,18 @@ width: 100%;
 .flexslider .slides iframe {
 	padding: 0px;
 	display: block;
+}
+.flex-direction-nav a {
+	width:52px;
+	height: 52px;
+	margin: -15px 0 0;
+	display: block;
+	background:  url(../images/flexslider/bg_direction_nav.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	/* bottom: 0px; */
+	cursor: pointer;
+	text-indent: -999em;
 }
 .blog p.meta, .singleblog p.meta {
  padding:20px 0px 50px 10px;
@@ -1726,6 +1753,18 @@ margin-top:-340px;
 .flexslider .slides iframe {
 	padding: 0px;
 	display: block;
+}
+.flex-direction-nav a {
+	width:52px;
+	height: 52px;
+	margin: -15px 0 0;
+	display: block;
+	background:  url(../images/flexslider/bg_direction_nav.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	/* bottom: 0px; */
+	cursor: pointer;
+	text-indent: -999em;
 }
 ul.pagination li a {
  padding:5px 8px;

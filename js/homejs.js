@@ -39,7 +39,7 @@ var captionKarte = document.getElementById("captionKarte");
 karte.onclick = function(){
     karteModal.style.display = "block";
     imgKarte.src = this.src;
-    captionKarte.innerHTML = this.alt;
+    // captionKarte.innerHTML = this.alt;
 }
 // // 
 // Get the <span> element that closes the modal

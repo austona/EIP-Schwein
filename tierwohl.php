@@ -161,7 +161,7 @@ $has_comments = (count($comments) > 0);
 	 oder befahrbaren Außenbereich abkoten. </p>
 	 </div>
 	</li>
-    <li> <img src="images/innovative_maßnahmen/tier_fressplatz_verhaeltnis.png" alt="" />
+    <li> <img src="images/innovative_maßnahmen/tier_fressplatz_verhaeltnis_langtrog.png" alt="" />
 	<div class = "flex-caption">
 	<h3>Tier-Fressplatz Verhältnis</h3>
 	<p> 
@@ -170,9 +170,21 @@ $has_comments = (count($comments) > 0);
 	</p>
 	</div>
 	</li>
-    <li> <a href="#"><img src="images/innovative_maßnahmen/sulmoeglichkeit.png" alt="" /></a>
+    <li> <a href="#"><img src="images/innovative_maßnahmen/suhle_1.png" alt="" /></a>
      <div class = "flex-caption">
-	<h3>Sulmöglichkeit</h3>
+	<h3>Sulmöglichkeit (1/2)</h3>
+	<p> 
+	Eine Sule bietet den Tieren die Möglichkeit arttypisches Verhalten auszuleben und  sich abzukühlen. 
+	Schon mit wenigen Zentimetern Wasser gefüllte  tiefer gelegene Flächen reichen dafür aus. 
+	Bei der Ausführung ist auf eine einfach Reinigung zu achten, um das hygienische Risiko zu senken.
+	V-Förmige Becken oder Becken mit einseitigem Gefälle zu einem Abflussrohr hin bieten die Möglichkeit verschmutztes Wasser schnell abzulassen. 
+	Ein Schwimmer oder Aqualevel kann zur Befüllung dienen. Sulmöglichkeiten im Außenbereich sollten vor Sonneneinstrahlung geschützt werden.
+	Besonders bei hohen Temperaturen schützt diese Möglichkeit der Abkühlung vor Verkotung der Liegeflächen. </p>
+	</div>
+    </li>
+	<li> <a href="#"><img src="images/innovative_maßnahmen/suhle_2.png" alt="" /></a>
+     <div class = "flex-caption">
+	<h3>Sulmöglichkeit (2/2)</h3>
 	<p> 
 	Eine Sule bietet den Tieren die Möglichkeit arttypisches Verhalten auszuleben und  sich abzukühlen. 
 	Schon mit wenigen Zentimetern Wasser gefüllte  tiefer gelegene Flächen reichen dafür aus. 
