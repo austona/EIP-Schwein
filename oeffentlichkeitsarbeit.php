@@ -79,18 +79,21 @@ $has_comments = (count($comments) > 0);
 
 <!-- Home - Content Part ==================================================
 ================================================== -->
-<div id="header">
-  <div class="container header" style = "width: 90%";> 
+
+<!-- Home - Content Part ==================================================================================================== -->
+
+<div id="header" >
+  <div class="container" style = "width: 90%;"> 
   <!-- <div class="container header"> -->
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_1.png"  alt=""/></a></div>
+      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_trans.png"  alt=""/></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">
             <li><a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span>HOME</a></li>
-			 <li><a href="#"><span class="home"><img src="images/portfolio.png" alt="" /></span>BAUPROJEKTE</a>
+			 <li><a href="#"><span class="home"><img src="images/farm.png" alt="" /></span>BAUPROJEKTE</a>
               <ul>
                 <li><a href="mastbetriebe.html">Maststall</a></li>
 				<li><a href="mastbetriebe.html">Ferkelaufzucht</a></li>
@@ -99,7 +102,7 @@ $has_comments = (count($comments) > 0);
 				<li><a href="gallery.html">Andere</a></li>
               </ul>
             </li>
-           <li><a href="innovative_maßnahmen.html"><span class="home"><img src="images/about.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
+           <li><a href="innovative_maßnahmen.html"><span class="home"><img src="images/idea.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
 			<ul>
                 <li><a href="tierwohl.php">Tierwohl/<br>Beschäftigung/<br>Fütterung</a></li>
 				<li><a href="betriebssichere_funktionsbereiche.php">Schaffung<br>betrieblicher<br>Funktionsbereiche</a></li>
@@ -107,9 +110,9 @@ $has_comments = (count($comments) > 0);
 				<li><a href="ressourcenschonung.php">Reduktion von<br>Emmissionen</a></li>
               </ul>
 			  </li>
-           <li><a href="features.html"><span class="home"><img src="images/features.png" alt="" /></span>FÜR DEN VERBRAUCHER</a></li>
+           <li><a href="features.html"><span class="home"><img src="images/info.png" alt="" /></span>FÜR DEN VERBRAUCHER</a></li>
             <li><a href="blog.html"><span class="home"><img src="images/blog.png" alt="" /></span>NEWS</a>
-            </li>
+           </li>
             
             <li><a href="contact.html"><span class="home"><img src="images/contact.png" alt="" /></span>KONTAKT</a>
 			 <ul>
@@ -140,6 +143,8 @@ $has_comments = (count($comments) > 0);
     </header>
   </div>
 </div>
+
+
 
 <div id = "main" style = "background: #e4eda8;">
 <div class = "container">
