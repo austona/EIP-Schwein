@@ -109,6 +109,8 @@ div.blankSeparator2 {
 	margin-top: 60px;
 	margin-bottom: 0px;
 }
+
+
 ul.sf-menu {
 	margin-top:0px;
 }
@@ -139,6 +141,7 @@ ul.sf-menu {
 .sf-menu a {
 	display:		block;
 	position:		relative;
+	color: white; 
 }
 .sf-menu li:hover ul, .sf-menu li.sfHover ul {
 	left:			0;
@@ -1070,7 +1073,9 @@ li#beauty, li#woman, li#people {
 	-o-transition: opacity 0.5s linear;
 	-ms-transition: opacity 0.5s linear;
 	transition: opacity 0.5s linear;
+	margin: auto;
 }
+
 .blog img {
 	background:#bfd6e4;
 	padding:10px;
@@ -1120,6 +1125,11 @@ span.left {
 	background:#bfd6e4;
 	border:1px solid #fff;
 	padding:5px;
+}
+
+#blogSidebar {
+	position: fixed;
+	right: 50px; 
 }
 ul.blogList a.about {
 	color: #414558;
@@ -1409,7 +1419,8 @@ div#comments a.buttonLink {
 	margin-top:40px;
 }
 form#contact_form {
-	background-color:#D6F4EC;
+	/* background-color:#D6F4EC; */
+	background-color: #8FCD9C;
 	box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
 	color:#414550;
 }
@@ -1485,6 +1496,15 @@ form#contact_form input[type="submit"] {
 form#contact_form input[type="submit"]:hover {
 	color:#bfd6e4;
 }
+
+address {
+	background: #8FCD9C;
+	color: black;
+	box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+	color:#414550;
+	font-size: 25px;
+}
+
 .map-container {
 	position: relative;
 	padding-bottom: 20%;

@@ -28,7 +28,7 @@
 
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/skeleton.css">
-<link rel="stylesheet" href="css/screen.css">
+<link rel="stylesheet" href="css/screen_1.css">
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
 
 <!-- Favicons ==================================================
@@ -49,176 +49,185 @@
 <!-- Home - Content Part ==================================================
 ================================================== -->
 <div id="header">
-  <div class="container header"> 
+  <div class="container header" style="width: 90%">
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-      <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
-      <div class="mainmenu">
-        <div id="mainmenu">
-          <ul class="sf-menu">
-            <li><a href="index.html"><span class="home"><img src="images/home.png" alt="" /></span>Home</a></li>
-            <li><a href="about.html"><span class="home"><img src="images/about.png" alt="" /></span>About</a></li>
-            <li><a href="portfolio.html"><span class="home"><img src="images/portfolio.png" alt="" /></span>Portfolio</a>
-              <ul>
-                <li><a href="gallery.html">Portfolio Gallery</a></li>
-              </ul>
-            </li>
-            <li><a href="blog.html"><span class="home"><img src="images/blog.png" alt="" /></span>Blog</a>
-              <ul>
-                <li><a href="singleblog.html">Single Post</a></li>
-              </ul>
-            </li>
-            <li><a href="features.html"><span class="home"><img src="images/features.png" alt="" /></span>features</a></li>
-            <li><a href="contact.html" id="visited"><span class="home"><img src="images/contact.png" alt="" /></span>Contact</a></li>
-          </ul>
+        <div class="logo">
+          <a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/">
+            <img src="images/eip_logo_trans.png" alt="" />
+          </a>
         </div>
-        
-        <!-- Responsive Menu -->
-        
-        <form id="responsive-menu" action="#" method="post">
-          <select>
-            <option value="">Navigation</option>
-            <option value="index.html">Home</option>
-            <option value="about.html">About</option>
-            <option value="portfolio.html">Portfolio</option>
-            <option value="gallery.html">Portfolio Gallery</option>
-            <option value="blog.html">Blog</option>
-            <option value="singleblog.html">Single Post</option>
-            <option value="features.html">Features</option>
-            <option value="contact.html">Contact</option>
-          </select>
-        </form>
-      </div>
-    </header>
+        <div class="mainmenu">
+          <div id="mainmenu">
+            <ul class="sf-menu">
+              <li>
+                <a href="index.html" id="visited">
+                <span class="home">
+                  <img src="images/home.png" alt="" />
+                </span>HOME</a>
+              </li>
+              <li>
+                <a href="#">
+                <span class="home">
+                  <img src="images/farm.png" alt="" />
+                </span>BAUPROJEKTE</a>
+                <ul>
+                  <li>
+                    <a href="mastbetriebe.html">Maststall</a>
+                  </li>
+                  <li>
+                    <a href="mastbetriebe.html">Ferkelaufzucht</a>
+                  </li>
+                  <li>
+                    <a href="gallery.html">Abferkelställe</a>
+                  </li>
+                  <li>
+                    <a href="gallery.html">Wartesauen/
+                    <br />Deckzentrum</a>
+                  </li>
+                  <li>
+                    <a href="gallery.html">Andere</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="innovative_ma%C3%83%C2%9Fnahmen.html">
+                <span class="home">
+                  <img src="images/idea.png" alt="" />
+                </span>INNOVATIVE MAßNAHMEN</a>
+                <ul>
+                  <li>
+                    <a href="tierwohl.php">Tierwohl/
+                    <br />Beschäftigung/
+                    <br />Fütterung</a>
+                  </li>
+                  <li>
+                    <a href="betriebssichere_funktionsbereiche.php">Schaffung
+                    <br />betrieblicher
+                    <br />Funktionsbereiche</a>
+                  </li>
+                  <li>
+                    <a href="oeffentlichkeitsarbeit.php">Öffentlichkeitsarbeit/
+                    <br />Verbraucherakzeptanz</a>
+                  </li>
+                  <li>
+                    <a href="ressourcenschonung.php">Reduktion von
+                    <br />Emmissionen</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="features.html">
+                <span class="home">
+                  <img src="images/info.png" alt="" />
+                </span>FÜR DEN VERBRAUCHER</a>
+              </li>
+              <li>
+                <a href="blog.html">
+                <span class="home">
+                  <img src="images/blog.png" alt="" />
+                </span>NEWS</a>
+              </li>
+              <li>
+                <a href="contact.html">
+                <span class="home">
+                  <img src="images/contact.png" alt="" />
+                </span>KONTAKT</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Responsive Menu -->
+          <form id="responsive-menu" action="#" method="post">
+            <select>
+              <option value="">Navigation</option>
+              <option value="index.html">Home</option>
+              <option value="about.html">Über uns</option>
+              <option value="portfolio.html">Bauprojekte</option>
+              <option value="gallery.html">Portfolio Gallery</option>
+              <option value="blog.html">News</option>
+              <option value="singleblog.html">Single Post</option>
+              <option value="features.html">FAQs</option>
+              <option value="contact.html">Kontakt</option>
+            </select>
+          </form>
+        </div>
+      </header>
   </div>
 </div>
-<!-- Contact Content Part - GoogleMap ==================================================
-================================================== -->
-<section class="map"> 
-  <!-- google map -->
-  <div class="map-holder">
-    <div class="map-container">
-      <iframe class="map" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Munich,+Germany&amp;aq=0&amp;oq=M%C3%BCnchen&amp;sll=37.0625,-95.677068&amp;sspn=53.212719,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=Munich,+Upper+Bavaria,+Bavaria,+Germany&amp;t=m&amp;ll=48.23565,11.596069&amp;spn=0.347588,2.635345&amp;z=10&amp;iwloc=A&amp;output=embed"></iframe>
-      <!-- end google map --> 
-    </div>
-    <!--map-container ends here--> 
-  </div>
-  <!--map-holder ends here--> 
-</section>
-
-<!-- Contact Content Part - Contact Form ==================================================
-================================================== -->
-<div class="container">
-  <div class="blankSeparator"></div>
-  <!-- Contact Sidebar ==================================================
-================================================== -->
-  <div class="one_third contactsidebar">
-    <section class="first">
-      <h3>Blog Navigation</h3>
-      <div class="boxtwosep"></div>
-      <ul class="contactsidebarList">
-        <li>123456 Street Name, London</li>
-        <li>Phone: (1800) 987-12341</li>
-        <li>Fax: (1800) 987-12341</li>
-        <li>Website: <a href="#" title="">http://yoursitename.com</a></li>
-        <li>Email: <a href="#" title="">info@proximet.com</a></li>
-      </ul>
-    </section>
-    <section class="third">
-      <h3>Latest Offers</h3>
-      <div class="boxtwosep"></div>
-      <h5><span class="color">40%</span> Sale &rsaquo;&rsaquo; Love Fashion</h5>
-      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-    </section>
-  </div>
-  <!-- one_third ends here -->
-  <div class="two_third lastcolumn contact1">
-    <div id="contactForm">
-      <h2>Leave a comment</h2>
-      <div class="sepContainer"></div>
-      <form action="process.php" method="post" id="contact_form">
+<div id = "main">
+<div class = "container">
+<div class="blankSeparator"></div>
+<div class = "two_third">
+<div id="contactForm">
+      <h2>Schreiben Sie uns hier Ihre Nachricht</h2>
+      <form action="post_comment.php" method="post" id="contact_form">
         <div class="name">
-          <label for="name">Your Name:</label>
-          <p> Please enter your full name</p>
-          <input id=name name=email type=text placeholder="e.g. Mr. John Smith" required />
+          <label for="name">Name:</label>
+          <p>Bitte geben Sie Ihren ganzen Namen ein</p>
+          <input id=name name=name type=text placeholder="z.B Max Mustermann" required />
         </div>
         <div class="email">
-          <label for="email">Your Email:</label>
-          <p> Please enter your email address</p>
-          <input id=email name=email type=email placeholder="example@domain.com" required />
+          <label for="email">Ihre E-Mail Adresse</label>
+          <p> Bitte geben Sie Ihre E-Mail Adresse ein </p>
+          <input id=email name=email type=email placeholder="beispiel@domain.de" required />
         </div>
         <div class="message">
-          <label for="message">Your Message:</label>
-          <p> Please enter your question</p>
-          <textarea id=message name=message rows=6 cols=10 required></textarea>
+          <label for="message">Ihre Nachricht</label>
+          <p> Bitte geben Sie hier Ihren Kommentar ein.</p>
+          <textarea id=message name=message placeholder = "Bitte geben Sie mindestens 5 Zeichen ein." rows=6 cols=10 required></textarea>
         </div>
         <div id="loader">
-          <input type="submit" value="Submit" />
+          <input name = "submit" type="submit" value="Absenden" />
         </div>
       </form>
+	  </div>
     </div>
-    <!-- end contactForm --> 
-  </div>
-</div>
-<div class="blankSeparator2"></div>
-<!--Footer ==================================================
-================================================== -->
-<div id="footer">
-  <div class="container footer">
-    <div class="one_fourth">
-      <h3>Latest Tweets</h3>
-      <div id="tweets"></div>
-    </div>
-    <div class="one_fourth">
-      <h3>Blogroll</h3>
-      <ul>
-        <li class="lines"><a href="#" title="">Development Blog</a></li>
-        <li class="lines"><a href="#" class="">New Freebies</a></li>
-        <li class="lines"><a href="#" class="">Themeforest Theme</a></li>
-        <li class="lines"><a href="#" class=""> Design News</a></li>
-        <li class="lines"><a href="#" class="">WordPress Theme</a></li>
-      </ul>
-    </div>
-    <div class="one_fourth">
-      <h3>Archive</h3>
-      <ul>
-        <li class="lines"><a href="#" class=""> August 2012</a></li>
-        <li class="lines"><a href="#" class="">July 2012</a></li>
-        <li class="lines"><a href="#" class="">Juny 2012</a></li>
-        <li class="lines"><a href="#" class=""> May 2012</a></li>
-        <li class="lines"><a href="#" class="">April 2012</a></li>
-      </ul>
-    </div>
-    <div class="one_fourth lastcolumn">
-      <h3>About</h3>
-      <p>Proximet is responsive, simple and clean template with a lot attention to detail. Get it now!</p>
-      <p>Visit <a href="http://anarieldesign.com/" rel="nofollow">Anariel Design</a> and find more interesting things.</p>
-    </div>
-  </div>
-  <!-- container ends here --> 
-</div>
-<!-- footer ends here --> 
+	<div class = "one_third lastcolumn">
+	<div class="blankSeparator"></div>
+	<div class="blankSeparator"></div>
+	<h2>Hier finden Sie uns</h2>
+	<!-- <address> -->
+	<!-- AgriConcept Beratungsgesellschaft Mbh<br> -->
+	<!-- Wollgrasweg 31<br> -->
+	<!-- 70599 Stuttgart-Plieningen -->
+	<!-- </address> -->
+	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDU1eXQZudUGy3H7OtB_6EncOfVWqTy8Wg'></script>
+	<div style='overflow:hidden;height:400px;width:333px;'><div id='gmap_canvas' style='height:400px;width:333px;'></div>
+	<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://www.blankenfeinundpartner.de/'>BlankenfeinundPartner.de</a> 
+	<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=329b85602f8a52754be0f462b052fe4ceff2591c'></script>
+	<script type='text/javascript'>function init_map(){var myOptions = {zoom:9,center:new google.maps.LatLng(48.7099289,9.200354400000037),
+	mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+	marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(48.7099289,9.200354400000037)});
+	infowindow = new google.maps.InfoWindow({content:'<strong>AgriConcept Beratungsgesellschaft mbH<br>Wollgrasweg 31<br>70599 Stuttgart-Plieningen<br>0711-6996950<br></strong>'});
+	google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}
+	google.maps.event.addDomListener(window, 'load', init_map);</script>
+	</div>
+	</div>
+
+<!-- <section class="map">  -->
+  <!-- <!-- google map --> -->
+  <!-- <div class="map-holder"> -->
+    <!-- <div class="map-container"> -->
+      <!-- <iframe class="map" src="https://www.google.de/maps/place/Wollgrasweg+31,+70599+Stuttgart/@48.7099324,9.1981604,17z/data=!3m1!4b1!4m5!3m4!1s0x4799c2fcbb766967:0xdc37939d63fb12da!8m2!3d48.7099289!4d9.2003544"></iframe> -->
+      <!-- <!-- end google map -->  -->
+    <!-- </div> -->
+    <!-- <!--map-container ends here-->  -->
+  <!-- </div> -->
+  <!-- <!--map-holder ends here-->  -->
+<!-- </section> -->
+<!-- </div> -->
+
 <!-- Copyright ==================================================
 ================================================== -->
 <div id="copyright">
-  <div class="container">
-    <div class="eleven columns alpha">
-      <p class="copyright">&copy; Copyright 2012. &quot;Proximet&quot; by <a href="http://www.anarieldesign.com/" rel="nofollow">Anariel Design</a>. All rights reserved.</p>
-    </div>
-    <div class="five columns omega">
-      <section class="socials">
-        <ul class="socials fr">
-          <li><a href="#"><img src="images/socials/twitter.png" class="poshytip" title="Twitter"  alt="" /></a></li>
-          <li><a href="#"><img src="images/socials/facebook.png" class="poshytip" title="Facebook" alt="" /></a></li>
-          <li><a href="#"><img src="images/socials/google.png" class="poshytip" title="Google" alt="" /></a></li>
-          <li><a href="#"><img src="images/socials/dribbble.png" class="poshytip" title="Dribbble" alt="" /></a></li>
-        </ul>
-      </section>
+    <div class="container">
+        <p class="copyright">Konzept von der 
+        <a href="http://www.agriconcept.de/content/inhalte/startseite/index.html" rel="nofollow">AgriConcept Beratungsgesellschaft
+        mbH</a>. Design inspiriert von 
+        <a href="http://www.anarieldesign.com/" rel="nofollow">Anariel Design</a>.</p>
     </div>
   </div>
-  <!-- container ends here --> 
-</div>
 <!-- copyright ends here --> 
 <!-- End Document
 ================================================== --> 
