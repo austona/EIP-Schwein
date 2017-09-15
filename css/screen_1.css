@@ -53,7 +53,7 @@ div.blankSeparator {
 	display: block;
 	position: relative;
 	z-index: 1;
-	width: 960px;
+	/* width: 960px; */
 	cursor: default;
 	
 	
@@ -94,14 +94,97 @@ div.blankSeparator2 {
 	/* background: url(../images/home/logo_desktop.png); */
 	/* width: 100%; */
 	float: left;
-	left: 5px;
+	left: 0px;
 	margin-right: 10px;
 	position: fixed; 
-	top: 5px;
+	top: 0px;
 	z-index:1; 
 	/* margin-top:45px; */
 	/* margin-bottom:10px; */
 }
+	/*mobile screens */
+	
+	/* @media only screen and (max-width: 479px) { */
+	/* .logo { */
+	/* float: left; */
+	/* left: 0px; */
+	/* margin-right: 10px; */
+	/* position: relative;  */
+	/* top: 0px; */
+	/* z-index: 1; */
+	/* } */
+		/* .desktop-logo { */
+			/* display: none !important;  */
+		/* } */
+		/* .tablet-logo { */
+			/* display: none !important;  */
+		/* } */
+	/* } */
+	
+	/* smaller screens and tablets */ 
+	/* @media only screen and (max-width: 1299px) { */
+		/* .logo { */
+	/* float: left; */
+	/* left: 0px; */
+	/* margin-right: 10px; */
+	/* position: relative;  */
+	/* top: 0px; */
+	/* z-index: 1; */
+	/* } */
+	
+		/* .tablet-logo { */
+			/* display: none !important;  */
+		/* } */
+		/* .mobile-logo { */
+			/* display: none !important;  */
+		/* } */
+	/* } */
+
+	@media only screen and (max-width: 959px) {
+		.logo {
+	float: left;
+	left: 0px;
+	margin-right: 10px;
+	position: relative; 
+	top: 0px;
+	z-index: 1;
+	}
+	
+		.desktop-logo {
+			display: none !important; 
+		}
+		.mobile-logo {
+			display: none !important; 
+		}
+	}
+	/* tablets maybe? */
+	@media only screen and (min-width: 960px) and (max-width: 1284px) {
+		.logo {
+	float: left;
+	left: 0px;
+	margin-right: 10px;
+	position: relative; 
+	top: 0px;
+	z-index: 1;
+	}
+		.tablet-logo {
+			display: none !important; 
+		}
+		.mobile-logo {
+			display: none !important; 
+		}
+}
+
+/* normal screen (devices and browsers) */
+	@media only screen and (min-width: 1285px) {
+		.tablet-logo {
+			display: none !important; 
+		}
+		.mobile-logo {
+			display: none !important; 
+		}
+}
+
 .mainmenu {
 	width: 75%;
 	float:right;
@@ -109,6 +192,7 @@ div.blankSeparator2 {
 	margin-top: 60px;
 	margin-bottom: 0px;
 }
+
 
 
 ul.sf-menu {
@@ -167,7 +251,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	float: right;
 	line-height: 12px;
 	margin: 0;
-	z-index: 99;
+	z-index: 50;
 }
 .sf-menu li {
 	background:transparent;
@@ -193,7 +277,7 @@ background: rgba(221,246,208, 0.6);
 	text-decoration:none;
 	/* text-transform:uppercase; */
 	font-weight:600;
-	color: #414558;
+	color: #F8F8FF;
 }
 li a#visited {
 	/* background:#bfd630; */
@@ -211,6 +295,7 @@ li a#visited:hover  {
 .sf-menu li ul {
 	border-bottom:5px solid #bfd6e4;
 	margin-top:75px;
+	z-index: 99;
 }
 .sf-menu ul li { /* visited pseudo selector so IE6 applies text colour*/
 	border-top:none;
@@ -234,6 +319,7 @@ li a#visited:hover  {
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	z-index: 99;
 }
 .sf-menu li ul li a:hover {
 	padding-left: 18px;
@@ -271,22 +357,50 @@ span.home {
 img#goToTop{
 	position: fixed; 
 	float: right; 
-	right: 10%;
+	right: 2%;
 	top: 25%; 
+	
 }
+
 img#goToComments{
 	position: fixed; 
 	float: right; 
-	right: 10%;
+	right: 2%;
 	top: 75%; 
+	
 }
+@media only screen and (max-width: 1111px) {
+	img#goToTop{
+		display: none; 
+	}
+	img#goToComments{
+		display: none; 
+	}
+}
+
 /****************************** Combination of an image with the caption **************************/
+
+	/*mobile phone */
+@media only screen and (max-width: 959px) {
+	
+.imageCaptionCombination {
+	margin: 0 auto; 
+	padding: 2px 5px 2px 5px;
+	
+	background: #8FCD9C;
+	margin-bottom: 5px;
+	border-bottom:3px solid #c45d69;
+	}
+	
+}
+@media only screen and (min-width: 960px){
 .imageCaptionCombination {
 	margin: 0 auto; 
 	padding: 20px 50px 20px 50px;
 	background: #8FCD9C;
 	margin-bottom: 30px;
 	border-bottom:3px solid #c45d69;
+}
 }
 
 .imageCaptionCombination h2 {
@@ -319,6 +433,13 @@ img#goToComments{
 .imageCaption p {
 	font-weight: bold;
 }
+
+
+	/* /* tablets maybe? */ */
+	/* @media only screen and (min-width: 960px) and (max-width: 1284px) { */
+	
+/* } */
+
 
 
 /* /****************************** HOME - Content Part - FlexSlider ******************************/ 
@@ -674,8 +795,8 @@ span.green {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    z-index: 99; /* Sit on top */
+    padding-top: 10px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -691,6 +812,7 @@ span.green {
     display: block;
     width: 80%;
     max-width: 700px;
+	
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -749,7 +871,7 @@ span.green {
 /* The Close Button */
 .close {
     position: absolute;
-    top: 15px;
+    top: 0px;
     right: 35px;
     color: #f1f1f1;
     font-size: 40px;
@@ -766,7 +888,24 @@ span.green {
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
-    .modal-content {
+    
+	
+	/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Sit on top */
+    padding-top: 25px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
         width: 100%;
     }
 }
@@ -1651,7 +1790,7 @@ form#contact_form textarea {
 }
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {
+	@media only screen and (max-width: 959px) {
  .mainmenu {
 float: left;
 width: 100%;
@@ -1721,11 +1860,11 @@ ul.tabs {
 ul.tabs li {
  padding: 0 5px 0 0px;
 }
- .mainmenu {
-float: left;
-width: 100%;
-margin-top:-340px;
-}
+ /* .mainmenu { */
+/* float: left; */
+/* width: 100%; */
+/* margin-top:-340px; */
+/* } */
 .flex-caption {
  width: 100%;
 }
@@ -1784,15 +1923,17 @@ ul.tabs li a {
 	display: none;
 	float: left;
 }
- @media only screen and (max-width: 767px) {
+ @media only screen and (max-width: 1150px) {
 	
  #mainmenu {
+display: none !important;
 visibility: hidden;
 height: 0;
 }
  #responsive-menu {
 display: inline-block;
-width: 100%;
-margin-top: 13px;
+width: 35%;
+margin-top: 50px;
+float: right;
 }
 }

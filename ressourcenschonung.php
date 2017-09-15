@@ -77,74 +77,135 @@ $has_comments = (count($comments) > 0);
 </head>
 <body>
 
-<!-- Home - Content Part ==================================================
-================================================== -->
 
 <!-- Home - Content Part ==================================================================================================== -->
 
-  <div id="header" >
-  <div class="container" style = "width: 90%;"> 
-  <!-- <div class="container header"> -->
-    <!-- Header | Logo, Menu
-		================================================== -->
-    <header>
-      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_trans.png"  alt=""/></a></div>
-      <div class="mainmenu">
-        <div id="mainmenu">
-          <ul class="sf-menu">
-            <li><a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span>HOME</a></li>
-			 <li><a href="#"><span class="home"><img src="images/farm.png" alt="" /></span>BAUPROJEKTE</a>
-              <ul>
-                <li><a href="mastbetriebe.html">Maststall</a></li>
-				<li><a href="mastbetriebe.html">Ferkelaufzucht</a></li>
-				<li><a href="gallery.html">Abferkelställe</a></li>
-				<li><a href="gallery.html">Wartesauen/<br>Deckzentrum</a></li>
-				<li><a href="gallery.html">Andere</a></li>
-              </ul>
-            </li>
-           <li><a href="innovative_maßnahmen.html"><span class="home"><img src="images/idea.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
-			<ul>
-                <li><a href="tierwohl.php">Tierwohl/<br>Beschäftigung/<br>Fütterung</a></li>
-				<li><a href="betriebssichere_funktionsbereiche.php">Schaffung<br>betrieblicher<br>Funktionsbereiche</a></li>
-				<li><a href="oeffentlichkeitsarbeit.php">Öffentlichkeitsarbeit/<br>Verbraucherakzeptanz</a></li>
-				<li><a href="ressourcenschonung.php">Reduktion von<br>Emmissionen</a></li>
-              </ul>
-			  </li>
-           <li><a href="features.html"><span class="home"><img src="images/info.png" alt="" /></span>FÜR DEN VERBRAUCHER</a></li>
-            <li><a href="blog.html"><span class="home"><img src="images/blog.png" alt="" /></span>NEWS</a>
-           </li>
-            
-            <li><a href="contact.html"><span class="home"><img src="images/contact.png" alt="" /></span>KONTAKT</a>
-			 <ul>
-			  <li><a href = "">Kontaktformular</a></li>
-			  <li><a href = ""> Ihr Ansprechpartner</li>
-			 </ul>
-			</li>
-			
-          </ul>
+<div id="header">
+    <div class="container header" style="width: 90%">
+      <!-- Header | Logo, Menu
+                ================================================== -->
+      <header>
+        <div class="logo">
+          <a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/">
+            <img class = "desktop-logo" src="images/eip_logo_trans.png" alt="" />
+			<img class = "tablet-logo" src = "images/eip_logo_trans_tablet.png" alt = "" />
+			<img class = "mobile-logo" src="images/eip_logo_trans_mobile.png" alt="" />
+          </a>
         </div>
-        
-        <!-- Responsive Menu -->
-        
-        <form id="responsive-menu" action="#" method="post">
-          <select>
-            <option value="">Navigation</option>
-            <option value="index.html">Home</option>
-            <option value="about.html">Über uns</option>
-            <option value="portfolio.html">Bauprojekte</option>
-            <option value="gallery.html">Portfolio Gallery</option>
-            <option value="blog.html">News</option>
-            <option value="singleblog.html">Single Post</option>
-            <option value="features.html">FAQs</option>
-            <option value="contact.html">Kontakt</option>
-          </select>
-        </form>
-      </div>
-    </header>
+        <div class="mainmenu">
+		<!-- Responsive Menu -->
+		
+          <div id="mainmenu">
+            <ul class="sf-menu">
+              <li>
+                <a href="index.html" id="visited">
+                <span class="home">
+                  <img src="images/home.png" alt="" />
+                </span>HOME</a>
+              </li>
+              <li>
+                <a href="#">
+                <span class="home">
+                  <img src="images/farm.png" alt="" />
+                </span>BAUPROJEKTE</a>
+                <ul>
+                  <li>
+                    <a href="mastbetriebe.html">Maststall</a>
+                  </li>
+                  <li>
+                    <a href="mastbetriebe.html">Ferkelaufzucht</a>
+                  </li>
+                  <li>
+                    <a href="mastbetriebe.html">Abferkelställe</a>
+                  </li>
+                  <li>
+                    <a href="mastbetriebe.html">Wartesauen/
+                    <br />Deckzentrum</a>
+                  </li>
+                  <li>
+                    <a href="mastbetriebe.html">Andere</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="innovative_maßnahmen.html">
+                <span class="home">
+                  <img src="images/idea.png" alt="" />
+                </span>INNOVATIVE MAßNAHMEN</a>
+                <ul>
+                  <li>
+                    <a href="tierwohl.php">Tierwohl/
+                    <br />Beschäftigung/
+                    <br />Fütterung</a>
+                  </li>
+                  <li>
+                    <a href="betriebssichere_funktionsbereiche.php">Schaffung
+                    <br />betrieblicher
+                    <br />Funktionsbereiche</a>
+                  </li>
+                  <li>
+                    <a href="oeffentlichkeitsarbeit.php">Öffentlichkeitsarbeit/
+                    <br />Verbraucherakzeptanz</a>
+                  </li>
+                  <li>
+                    <a href="ressourcenschonung.php">Reduktion von
+                    <br />Emmissionen</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="fuer_den_verbraucher.html">
+                <span class="home">
+                  <img src="images/info.png" alt="" />
+                </span>FÜR DEN VERBRAUCHER</a>
+              </li>
+              <li>
+                <a href="blog.html">
+                <span class="home">
+                  <img src="images/blog.png" alt="" />
+                </span>NEWS</a>
+              </li>
+              <li>
+                <a href="contact.html">
+                <span class="home">
+                  <img src="images/contact.png" alt="" />
+                </span>KONTAKT</a>
+              </li>
+            </ul>
+          </div>
+		  
+		  <div id="responsive-menu">
+          <form action="#" method="post">
+            <select>
+              <option value="">Navigation</option>
+              <option value="index.html">Home</option>
+			  <optgroup label="Bauprojekte">
+              <option value="mastbetriebe.html">Maststall</option>
+			  <option value="ferkelaufzucht.html">Ferkelaufzucht</option>
+			  <option value="abferkelstaelle.html">Abferkelställe</option>
+			  <option value="wartesauen_deckzentrum.html">Wartesauen/Deckzentrum</option>
+			  <option value="andere.html">Andere</option>
+			  </optgroup>
+			  <optgroup label="Innovative Maßnahmen">
+			  <option value = "innovative_maßnahmen.html">Handlungsfelder</option>
+              <option value="tierwohl.php">Tierwohl/Beschäftigung/Fütterung</option>
+			  <option value="betriebssichere_funktionsbereiche.php">Schaffung betrieblicher Funktionsbereiche</option>
+			  <option value="oeffentlichkeitsarbeit.php">Öffentlichkeitsarbeit/Verbraucherakzeptanz</option>
+			  <option value="ressourcenschonung.php">Reduktion von Emmissionen</option>
+			  </optgroup>
+              <option value="fuer_den_verbraucher.html">Für den Verbraucher</option>
+              <option value="blog.html">News</option>
+              <option value="contact.html">Kontakt</option>
+            </select>
+          </form>
+		  </div>
+          
+        </div>
+      </header>
+    </div>
   </div>
-</div>
 
-<div id = "main" style = "background: #e4eda8;">
+<div id = "main">
 <div class = "container">
 <div class = "blankSeparator"> </div>
 <div class = "blankSeparator"> </div>
@@ -154,36 +215,53 @@ $has_comments = (count($comments) > 0);
 <!-- Home Content Part - Slider ==================================================
 ================================================== -->
 
-<div class="flexslider">
-  <ul class="slides">
-    <li> <a href="#"><img src="images/innovative_maßnahmen/vollautomatisiertes_einstreuen.png" alt=""/></a> 
-	 <div class="flex-caption" style="overflow-x:auto;">
-	 <h2>Arbeitszeiteinsparung</h2>
-	 <h3>Vollautomatisiertes Einstreuen</h3>
-	 <p>Vollautomatisches, zeitgesteuertes Einstreuen beschränkt den Arbeitsaufwand auf das Bestücken des Ballenauflösers. 
+
+  <ul class="presentationList">
+  <li> 
+	
+	<div class = "imageCaptionCombination">
+	<h2>Arbeitszeiteinsparung</h2>
+	<img src="images/innovative_maßnahmen/vollautomatisiertes_einstreuen.png" alt=""/>
+	<div class = "imageCaption">
+	<h3>Vollautomatisiertes Einstreuen</h3>
+	<p> 
+	Vollautomatisches, zeitgesteuertes Einstreuen beschränkt den Arbeitsaufwand auf das Bestücken des Ballenauflösers. 
 	 So kann (mehrmals) täglich zeitgesteuert frisch nachgestreut werden. Dies verhindert wiederum eine Verkotung im Liegebereich 
 	 #und dient der Beschäftigung (Langschwanz). In wie weit die Staubbelastung im Vergleich zum händischen Einstreuen reduziert oder 
 	 erhöht wird und wie sich der Strohverbrauch verändert wird in den EIP-Ställen getestet. Auch welche Einstreuhäufigkeit und Menge 
-	 am günstigsten ist muss getestet werden. Investitionskosten belaufen sich zwischen … und ….€. 
-	 </p>
-	 </div>
+	 am günstigsten ist muss getestet werden. Investitionskosten belaufen sich zwischen … und ….€.
+	</p>
+	</div>
+	<div>
+	</div>
 	</li>
-    <li> <img src="images/innovative_maßnahmen/mechanisiertes_einstreuen.png" alt="" />
-	<div class = "flex-caption">
+	
+	<li> 
+	
+	<div class = "imageCaptionCombination">
 	<h2>Arbeitszeiteinsparung</h2>
+	<img src="images/innovative_maßnahmen/mechanisiertes_einstreuen.png" alt="" />
+	<div class = "imageCaption">
 	<h3>Teilautomatisiertes, mechanisiertes Einstreuen</h3>
-	 <p>Neben vollautomatischen, zeitgesteuerten Systemen bietet sich für einen geringen Einstreubedarf (nach AFP-Premium) auch mechanische 
+	<p> 
+	Neben vollautomatischen, zeitgesteuerten Systemen bietet sich für einen geringen Einstreubedarf (nach AFP-Premium) auch mechanische 
 	 Einstreuhilfen, mit deutlich geringerem Investitionsbedarf haben. In einigen Testbetrieben wurde ein Korb, der an der Schiene im Gang, 
 	 entlang der Buchten geschoben werden kann angebracht. Dieser kann über die gesamte Länge des Stalls geschoben werden. Außerhalb des 
 	 Stalles kann dieser mit einem Front- oder Radlader mit einem großen Ballen bestückt werden. Damit lässt sich der tägliche Aufwand 
 	 für das Einstreuen deutlich verringern und erleichtern. Im Gegensatz zum vollautomatischen Einstreuen kann jede Bucht individuell 
 	 nach Bedarf nachgestreut werden. Für befahrbare Flächen bieten sich Systeme für Frontlader und Radlader an. 
-	 </p>
+	</p>
+	</div>
+	<div>
 	</div>
 	</li>
-    <li> <a href="#"><img src="images/modellbetrieb_1/modellbetrieb_1_3.jpg" alt="" /></a>
-     <div class = "flex-caption">
-	 <h2>Arbeitszeiteinsparung</h2>
+	
+	<li> 
+	
+	<div class = "imageCaptionCombination">
+	<h2>Arbeitszeiteinsparung</h2>
+	<img src="images/modellbetrieb_1/modellbetrieb_1_3.jpg" alt="" />
+	<div class = "imageCaption">
 	<h3>Gestaltung der Buchtenwände</h3>
 	<p> 
 	Werden befestigte Flächen im Stall oder im Auslauf genutzt müssen diese auch während der Aufzucht bzw. Mast einfach und schnell abgeschoben
@@ -197,45 +275,75 @@ $has_comments = (count($comments) > 0);
 	richtig platziert werden die Tiere zudem bei langsamen Schwenken der Tore zugleich in den Stall getrieben.
 	</p>
 	</div>
-    </li>
-	<li> <a href="#"><img src="images/innovative_maßnahmen/heizung.png" alt="" /></a>
-     <div class = "flex-caption">
-	 <h2>Energieeffizienz
-	<h3>Fußboden und/oder Wandheizung</h3>
-	<p>Durch eine Boden- und/oder Wandheizung kann ein Kleinklima mit höherer Temperatur geschaffen werden, so kann der gesamte Sall 
-	auf geringerer  Temperatur gefahren werden. Weiterer Energieeinsparungen ergeben sich in Kombination mit einer Solarthermieanlage 
-	auf dem Stalldach. </p>
+	<div>
 	</div>
-    </li>
-	<li> <a href="#"><img src="images/innovative_maßnahmen/einstreu.png" alt="" /></a>
-     <div class = "flex-caption">
-	 <h2>Energieeffizienz</h2>
+	</li>
+	
+	<li> 
+	
+	<div class = "imageCaptionCombination">
+	<h2>Energieeffizienz</h2>
+	<img src="images/innovative_maßnahmen/heizung.png" alt="" />
+	<div class = "imageCaption">
+	<h3>Fußboden und/oder Wandheizung</h3>
+	<p> 
+	Durch eine Boden- und/oder Wandheizung kann ein Kleinklima mit höherer Temperatur geschaffen werden, so kann der gesamte Sall 
+	auf geringerer  Temperatur gefahren werden. Weiterer Energieeinsparungen ergeben sich in Kombination mit einer Solarthermieanlage 
+	auf dem Stalldach.
+	</p>
+	</div>
+	<div>
+	</div>
+	</li>
+	
+	<li> 
+	<div class = "imageCaptionCombination">
+	<h2>Energieeffizienz</h2>
+	<img src="images/innovative_maßnahmen/einstreu.png" alt="" />
+	<div class = "imageCaption">
 	<h3>Einstreu</h3>
 	<p>Durch die wärmedämmende Wirkung von Einstreu im Liegebereich kann die Raumtemperatur im Vergleich zu einstreulosen Stallgebäuden 
-	gesenkt und dadurch Energie eingespart werden.   </p>
+	gesenkt und dadurch Energie eingespart werden.   
+	</p>
 	</div>
-    </li>
-	<li> <a href="#"><img src="images/innovative_maßnahmen/querlüftung_offen.png" alt="" /></a>
-     <div class = "flex-caption">
-	 <h2>Energieeffizienz</h2>
+	<div>
+	</div>
+	</li>
+	
+	<li> 
+	<div class = "imageCaptionCombination">
+	<h2>Energieeffizienz</h2>
+	<img src="images/innovative_maßnahmen/querlüftung_offen.png" alt="" />
+	<div class = "imageCaption">
 	<h3>Querlüftung (geöffnet)</h3>
-	<p>Eine Außenklimaställe mit Querlüftung ermöglichen einen Verzicht auf Ventilatoren und wirkt sich damit positiv auf den Energieverbrauch aus.
+	<p>Durch die wärmedämmende Wirkung von Einstreu im Liegebereich kann die Raumtemperatur im Vergleich zu einstreulosen Stallgebäuden 
+	gesenkt und dadurch Energie eingespart werden.   
+	</p>
+	Eine Außenklimaställe mit Querlüftung ermöglichen einen Verzicht auf Ventilatoren und wirkt sich damit positiv auf den Energieverbrauch aus.
 	Großzügige Lüftungsklappen können je nach Temperatur im Stall automatisch oder manuell geöffnet werden. Windnetzte verhinder Zugluft. 
 	Probleme bestehen jedoch noch immer bei der Genehmigung oder Bedenken von Anwohnern bezüglich Geruch, da Abluft nicht gezielt abgeleitet wird.  </p>
+	<div>
 	</div>
-    </li>
-	<li> <a href="#"><img src="images/innovative_maßnahmen/querlüftung_zu.png" alt="" /></a>
-     <div class = "flex-caption">
-	 <h2>Energieeffizienz</h2>
+	</li>
+
+	<li> 
+	<div class = "imageCaptionCombination">
+	<h2>Energieeffizienz</h2>
+	<img src="images/innovative_maßnahmen/querlüftung_zu.png" alt="" />
+     <div class = "imageCaption">
 	<h3>Querlüftung (geschlossen)</h3>
 	<p>Eine Außenklimaställe mit Querlüftung ermöglichen einen Verzicht auf Ventilatoren und wirkt sich damit positiv auf den Energieverbrauch aus. 
 	Großzügige Lüftungsklappen können je nach Temperatur im Stall automatisch oder manuell geöffnet werden. Windnetzte verhinder Zugluft.
 	Probleme bestehen jedoch noch immer bei der Genehmigung oder Bedenken von Anwohnern bezüglich Geruch, da Abluft nicht gezielt abgeleitet wird.   </p>
 	</div>
+	</div>
     </li>
-	<li> <a href="#"><img src="images/innovative_maßnahmen/emissionsmindernde_spalten.png" alt="" /></a>
-     <div class = "flex-caption">
-	 <h2>Emmisionseinsparung</h2>
+	
+	<li>
+	<div class = "imageCaptionCombination">
+	<h2>Emmisionseinsparung</h2>
+	<img src="images/innovative_maßnahmen/emissionsmindernde_spalten.png" alt="" />
+     <div class = "imageCaption">
 	<h3>Emissionsmindernde Spaltenböden</h3>
 	<p>Eine Kot-Harn-Trennung durch emissionsmindernde Spaltenböden verringert Ammoniak- und Geruchsemissionen und verbessert so die Stallluft.
 	Die Kanalböden sind mit einem V-förmigen Gefälle zur Kanalmitte hin ausgestattet. Die Mitte dieses Kanals weist eine offene Rinne mit Gefälle auf,
@@ -244,45 +352,61 @@ $has_comments = (count($comments) > 0);
 	Spaltenboden besser mit einer teilbefestigter, eingestreuter Liege kombinieren als herkömmliche Stausysteme, die bei Stroheinsatz schnell
 	verstopfen.  </p>
 	</div>
+	</div>
     </li>
-	<li> <a href="#"><img src="images/innovative_maßnahmen/gefaelle.png" alt="" /></a>
-     <div class = "flex-caption">
-	 <h2>Emmisionseinsparung</h2>
+	
+	<li>
+<div class = "imageCaptionCombination">
+ <h2>Emmisionseinsparung</h2>
+<img src="images/innovative_maßnahmen/gefaelle.png" alt="" />
+     <div class = "imageCaption">
+	
 	<h3>Emissionsminderung durch Gefälle und Ablaufrinne (1/2)</h3>
 	<p>Einfaches aber wirksames Mittel zur Reduktion von NH3 Emissionen ist der rasche Abfluss von Harn über ein Gefälle auf planbefestigten Flächen,
 	insbesondere im Auslauf. 
 	 </p>
+	 </div>
 	</div>
     </li>
-	<li> <a href="#"><img src="images/innovative_maßnahmen/ablaufrinne.png" alt="" /></a>
-     <div class = "flex-caption">
-	 <h2>Emmisionseinsparung</h2>
+	<li> 
+	<div class = "imageCaptionCombination">
+	<h2>Emissionseinsparung</h2>
+	<img src="images/innovative_maßnahmen/ablaufrinne.png" alt="" />
+     <div class = "imageCaption">
+	 
 	<h3>Emissionsminderung durch Gefälle und Ablaufrinne (2/2)</h3>
 	<p>Über eine Ablaufrinne im tiefsten Punkt des Gefälles wird der Harn abgeführt. 
 	In Kombination mit eingestreuten, teilbefestigten Flächen ist die Herausforderung die Ablaufrinne so zu gestalten, dass diese nicht verstopft.
 	In den Bauprojekten dieses EIP Projektes werden unterschiedliche Ausführungen getestet.   </p>
 	</div>
+	</div>
     </li>
 	<li> 
-	 <iframe id="player_1" src="https://player.vimeo.com/video/226426186?api=1&player_id=player_1" width = "800px;" height = "500px;" 
+	<div class = "imageCaptionCombination">
+	<h2> Emissionseinsparung</h2>
+	 <iframe id="player_1" src="https://player.vimeo.com/video/226426186?api=1&player_id=player_1" width = "100%;" height = "450px;" 
 	  frameborder="0" marginwidth = "0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-     <div class = "flex-caption">
-	 <h2>Emissionseinsparung</h2>
+     <div class = "imageCaption">
 	<h3>Kot-Harn-Trennung</h3>
 	<p>
 	Text zum Video...
 	</p>
 	</div>
+	</div>
     </li>
-	<li> <a href="#"><img src="images/innovative_maßnahmen/oberflaeche_verringerung.png" alt="" /></a>
-     <div class = "flex-caption">
+	<li>
+	<div class = "imageCaptionCombination">
 	 <h2>Verringerung der Oberfläche</h2>
+	<img src="images/innovative_maßnahmen/oberflaeche_verringerung.png" alt="" />
+     <div class = "imageCaption">
+	
 	<h3>Emissionsminderung durch Gefälle und Ablaufrinne (2/2)</h3>
 	<p>
 	Grundsätzlich hängen die Ammoniak und Geruchsemissionen von der emittierenden Fläche ab. Eine Strukturierung der Bucht mit vorgesehenem Kotbereich
 	senkt damit die Emissionen, wenn diese auch von den Schweinen angenommen wird. Auch tiefe, schmale, Güllekanäle mit geringerer Oberfläche und 
 	damit Luftkontakt verringern Emissionen.
 	</p>
+	</div>
 	</div>
     </li>
 	

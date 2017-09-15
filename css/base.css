@@ -81,13 +81,15 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color: #6d8696;
 }
 h1 {
-	font-size: 48px;
-	margin-bottom: 10px;
-	margin-top: 10px; 
+	font-size: 45px;
+	margin-bottom: 5px;
+	margin-top: 5px; 
+	line-height: 1.1em;
 }
 h2 {
 	font-size: 16px;
 	margin-bottom:10px;
+	margin-top: 10px; 
 	font-weight:600;
 	text-transform:uppercase;
 }

@@ -78,69 +78,133 @@ $has_comments = (count($comments) > 0);
 </head>
 <body>
 
-<!-- Home - Content Part ==================================================
-================================================== -->
-<div id="header" >
-  <div class="container" style = "width: 90%;"> 
-  <!-- <div class="container header"> -->
-    <!-- Header | Logo, Menu
-		================================================== -->
-    <header>
-      <div class="logo"><a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/"><img src="images/eip_logo_trans.png"  alt=""/></a></div>
-      <div class="mainmenu">
-        <div id="mainmenu">
-          <ul class="sf-menu">
-            <li><a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span>HOME</a></li>
-			 <li><a href="#"><span class="home"><img src="images/farm.png" alt="" /></span>BAUPROJEKTE</a>
-              <ul>
-                <li><a href="mastbetriebe.html">Maststall</a></li>
-				<li><a href="mastbetriebe.html">Ferkelaufzucht</a></li>
-				<li><a href="gallery.html">Abferkelställe</a></li>
-				<li><a href="gallery.html">Wartesauen/<br>Deckzentrum</a></li>
-				<li><a href="gallery.html">Andere</a></li>
-              </ul>
-            </li>
-           <li><a href="innovative_maßnahmen.html"><span class="home"><img src="images/idea.png" alt="" /></span>INNOVATIVE MAßNAHMEN</a>
-			<ul>
-                <li><a href="tierwohl.php">Tierwohl/<br>Beschäftigung/<br>Fütterung</a></li>
-				<li><a href="betriebssichere_funktionsbereiche.php">Schaffung<br>betrieblicher<br>Funktionsbereiche</a></li>
-				<li><a href="oeffentlichkeitsarbeit.php">Öffentlichkeitsarbeit/<br>Verbraucherakzeptanz</a></li>
-				<li><a href="ressourcenschonung.php">Reduktion von<br>Emmissionen</a></li>
-              </ul>
-			  </li>
-           <li><a href="features.html"><span class="home"><img src="images/info.png" alt="" /></span>FÜR DEN VERBRAUCHER</a></li>
-            <li><a href="blog.html"><span class="home"><img src="images/blog.png" alt="" /></span>NEWS</a>
-           </li>
-            
-            <li><a href="contact.html"><span class="home"><img src="images/contact.png" alt="" /></span>KONTAKT</a>
-			 <ul>
-			  <li><a href = "">Kontaktformular</a></li>
-			  <li><a href = ""> Ihr Ansprechpartner</li>
-			 </ul>
-			</li>
-			
-          </ul>
+
+<!-- Home - Content Part ==================================================================================================== -->
+
+<div id="header">
+    <div class="container header" style="width: 90%">
+      <!-- Header | Logo, Menu
+                ================================================== -->
+      <header>
+        <div class="logo">
+          <a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/">
+            <img class = "desktop-logo" src="images/eip_logo_trans.png" alt="" />
+			<img class = "tablet-logo" src = "images/eip_logo_trans_tablet.png" alt = "" />
+			<img class = "mobile-logo" src="images/eip_logo_trans_mobile.png" alt="" />
+          </a>
         </div>
-        
-        <!-- Responsive Menu -->
-        
-        <form id="responsive-menu" action="#" method="post">
-          <select>
-            <option value="">Navigation</option>
-            <option value="index.html">Home</option>
-            <option value="about.html">Über uns</option>
-            <option value="portfolio.html">Bauprojekte</option>
-            <option value="gallery.html">Portfolio Gallery</option>
-            <option value="blog.html">News</option>
-            <option value="singleblog.html">Single Post</option>
-            <option value="features.html">FAQs</option>
-            <option value="contact.html">Kontakt</option>
-          </select>
-        </form>
-      </div>
-    </header>
+        <div class="mainmenu">
+		<!-- Responsive Menu -->
+		
+          <div id="mainmenu">
+            <ul class="sf-menu">
+              <li>
+                <a href="index.html" id="visited">
+                <span class="home">
+                  <img src="images/home.png" alt="" />
+                </span>HOME</a>
+              </li>
+              <li>
+                <a href="#">
+                <span class="home">
+                  <img src="images/farm.png" alt="" />
+                </span>BAUPROJEKTE</a>
+                <ul>
+                  <li>
+                    <a href="mastbetriebe.html">Maststall</a>
+                  </li>
+                  <li>
+                    <a href="mastbetriebe.html">Ferkelaufzucht</a>
+                  </li>
+                  <li>
+                    <a href="mastbetriebe.html">Abferkelställe</a>
+                  </li>
+                  <li>
+                    <a href="mastbetriebe.html">Wartesauen/
+                    <br />Deckzentrum</a>
+                  </li>
+                  <li>
+                    <a href="mastbetriebe.html">Andere</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="innovative_maßnahmen.html">
+                <span class="home">
+                  <img src="images/idea.png" alt="" />
+                </span>INNOVATIVE MAßNAHMEN</a>
+                <ul>
+                  <li>
+                    <a href="tierwohl.php">Tierwohl/
+                    <br />Beschäftigung/
+                    <br />Fütterung</a>
+                  </li>
+                  <li>
+                    <a href="betriebssichere_funktionsbereiche.php">Schaffung
+                    <br />betrieblicher
+                    <br />Funktionsbereiche</a>
+                  </li>
+                  <li>
+                    <a href="oeffentlichkeitsarbeit.php">Öffentlichkeitsarbeit/
+                    <br />Verbraucherakzeptanz</a>
+                  </li>
+                  <li>
+                    <a href="ressourcenschonung.php">Reduktion von
+                    <br />Emmissionen</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="fuer_den_verbraucher.html">
+                <span class="home">
+                  <img src="images/info.png" alt="" />
+                </span>FÜR DEN VERBRAUCHER</a>
+              </li>
+              <li>
+                <a href="blog.html">
+                <span class="home">
+                  <img src="images/blog.png" alt="" />
+                </span>NEWS</a>
+              </li>
+              <li>
+                <a href="contact.html">
+                <span class="home">
+                  <img src="images/contact.png" alt="" />
+                </span>KONTAKT</a>
+              </li>
+            </ul>
+          </div>
+		  
+		  <div id="responsive-menu">
+          <form action="#" method="post">
+            <select>
+              <option value="">Navigation</option>
+              <option value="index.html">Home</option>
+			  <optgroup label="Bauprojekte">
+              <option value="mastbetriebe.html">Maststall</option>
+			  <option value="ferkelaufzucht.html">Ferkelaufzucht</option>
+			  <option value="abferkelstaelle.html">Abferkelställe</option>
+			  <option value="wartesauen_deckzentrum.html">Wartesauen/Deckzentrum</option>
+			  <option value="andere.html">Andere</option>
+			  </optgroup>
+			  <optgroup label="Innovative Maßnahmen">
+			  <option value = "innovative_maßnahmen.html">Handlungsfelder</option>
+              <option value="tierwohl.php">Tierwohl/Beschäftigung/Fütterung</option>
+			  <option value="betriebssichere_funktionsbereiche.php">Schaffung betrieblicher Funktionsbereiche</option>
+			  <option value="oeffentlichkeitsarbeit.php">Öffentlichkeitsarbeit/Verbraucherakzeptanz</option>
+			  <option value="ressourcenschonung.php">Reduktion von Emmissionen</option>
+			  </optgroup>
+              <option value="fuer_den_verbraucher.html">Für den Verbraucher</option>
+              <option value="blog.html">News</option>
+              <option value="contact.html">Kontakt</option>
+            </select>
+          </form>
+		  </div>
+          
+        </div>
+      </header>
+    </div>
   </div>
-</div>
 
 
 <div id = "main" style = "background: #e4eda8;">

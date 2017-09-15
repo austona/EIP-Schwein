@@ -6,8 +6,7 @@
 <html lang="en">
   <!--<![endif]-->
   <head>
-    <meta name="generator"
-    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    
     <!-- Basic Page Needs ================================================== 
 ================================================== -->
     <meta charset="utf-8" />
@@ -37,17 +36,24 @@
     <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
   </head>
   <body>
-  <div id="header">
+  
+<!-- Home - Content Part ==================================================================================================== -->
+
+<div id="header">
     <div class="container header" style="width: 90%">
       <!-- Header | Logo, Menu
                 ================================================== -->
       <header>
         <div class="logo">
           <a target="_blank" href="https://www.netzwerk-laendlicher-raum.de/themen/eip-agri/">
-            <img src="images/eip_logo_trans.png" alt="" />
+            <img class = "desktop-logo" src="images/eip_logo_trans.png" alt="" />
+			<img class = "tablet-logo" src = "images/eip_logo_trans_tablet.png" alt = "" />
+			<img class = "mobile-logo" src="images/eip_logo_trans_mobile.png" alt="" />
           </a>
         </div>
         <div class="mainmenu">
+		<!-- Responsive Menu -->
+		
           <div id="mainmenu">
             <ul class="sf-menu">
               <li>
@@ -69,19 +75,19 @@
                     <a href="mastbetriebe.html">Ferkelaufzucht</a>
                   </li>
                   <li>
-                    <a href="gallery.html">Abferkelställe</a>
+                    <a href="mastbetriebe.html">Abferkelställe</a>
                   </li>
                   <li>
-                    <a href="gallery.html">Wartesauen/
+                    <a href="mastbetriebe.html">Wartesauen/
                     <br />Deckzentrum</a>
                   </li>
                   <li>
-                    <a href="gallery.html">Andere</a>
+                    <a href="mastbetriebe.html">Andere</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="innovative_ma%C3%83%C2%9Fnahmen.html">
+                <a href="innovative_maßnahmen.html">
                 <span class="home">
                   <img src="images/idea.png" alt="" />
                 </span>INNOVATIVE MAßNAHMEN</a>
@@ -107,7 +113,7 @@
                 </ul>
               </li>
               <li>
-                <a href="features.html">
+                <a href="fuer_den_verbraucher.html">
                 <span class="home">
                   <img src="images/info.png" alt="" />
                 </span>FÜR DEN VERBRAUCHER</a>
@@ -123,31 +129,36 @@
                 <span class="home">
                   <img src="images/contact.png" alt="" />
                 </span>KONTAKT</a>
-                <ul>
-                  <li>
-                    <a href="">Kontaktformular</a>
-                  </li>
-                  <li>
-                    <a href="">Ihr Ansprechpartner</a>
-                  </li>
-                </ul>
               </li>
             </ul>
           </div>
-          <!-- Responsive Menu -->
-          <form id="responsive-menu" action="#" method="post">
+		  
+		  <div id="responsive-menu">
+          <form action="#" method="post">
             <select>
               <option value="">Navigation</option>
               <option value="index.html">Home</option>
-              <option value="about.html">Über uns</option>
-              <option value="portfolio.html">Bauprojekte</option>
-              <option value="gallery.html">Portfolio Gallery</option>
+			  <optgroup label="Bauprojekte">
+              <option value="mastbetriebe.html">Maststall</option>
+			  <option value="ferkelaufzucht.html">Ferkelaufzucht</option>
+			  <option value="abferkelstaelle.html">Abferkelställe</option>
+			  <option value="wartesauen_deckzentrum.html">Wartesauen/Deckzentrum</option>
+			  <option value="andere.html">Andere</option>
+			  </optgroup>
+			  <optgroup label="Innovative Maßnahmen">
+			  <option value = "innovative_maßnahmen.html">Handlungsfelder</option>
+              <option value="tierwohl.php">Tierwohl/Beschäftigung/Fütterung</option>
+			  <option value="betriebssichere_funktionsbereiche.php">Schaffung betrieblicher Funktionsbereiche</option>
+			  <option value="oeffentlichkeitsarbeit.php">Öffentlichkeitsarbeit/Verbraucherakzeptanz</option>
+			  <option value="ressourcenschonung.php">Reduktion von Emmissionen</option>
+			  </optgroup>
+              <option value="fuer_den_verbraucher.html">Für den Verbraucher</option>
               <option value="blog.html">News</option>
-              <option value="singleblog.html">Single Post</option>
-              <option value="features.html">FAQs</option>
               <option value="contact.html">Kontakt</option>
             </select>
           </form>
+		  </div>
+          
         </div>
       </header>
     </div>
@@ -155,6 +166,8 @@
   <div id="main">
     <div class="container blog">
       <div class="blankSeparator"></div>
+	  <h1>Was gibt es Neues?</h1> 
+	  <div class="sepContainer"></div> 
       <section class="post">
         <div id="post_1">
           <h2>Neuigkeit Nummer 1</h2>
