@@ -180,7 +180,7 @@
 <div class = "two_third">
 <div id="contactForm">
       <h2>Schreiben Sie uns hier Ihre Nachricht</h2>
-      <form action="post_comment.php" method="post" id="contact_form">
+      <form action="send_form_email.php" method="post" id="contact_form">
         <div class="name">
           <label for="name">Name:</label>
           <p>Bitte geben Sie Ihren ganzen Namen ein</p>
@@ -203,7 +203,7 @@
 	  </div>
     </div>
 	
-	<div class = "one_third lastcolumn">
+	<div class = "one_third lastcolumn" >
 	<div class="blankSeparator"></div>
 	<div class="blankSeparator"></div>
 	<h2>Hier finden Sie uns</h2>
@@ -213,30 +213,41 @@
 	<!-- 70599 Stuttgart-Plieningen -->
 	<!-- </address> -->
 	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDU1eXQZudUGy3H7OtB_6EncOfVWqTy8Wg'></script>
-	<div style='overflow:hidden;height:400px;width:333px;'><div id='gmap_canvas' style='height:400px;width:333px;'></div>
-	<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://www.blankenfeinundpartner.de/'>BlankenfeinundPartner.de</a> 
+	<!-- <div style='overflow:hidden;height:400px;width:100%;'> -->
+	<div id='gmap_canvas2' style='height:400px;width:100%;position: relative; visibility: visible!important;'>
+	<!-- </div> -->
+	<!-- <style>#gmap_canvas img{ -->
+	<!-- max-width:none!important; -->
+	<!-- background:none!important;}</style> -->
+	</div> 
+	<a href='https://www.blankenfeinundpartner.de/'>BlankenfeinundPartner.de</a> 
 	<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=329b85602f8a52754be0f462b052fe4ceff2591c'></script>
-	<script type='text/javascript'>function init_map(){var myOptions = {zoom:9,center:new google.maps.LatLng(48.7099289,9.200354400000037),
-	mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+	<script type='text/javascript'>
+	function init_map(){
+	var myOptions = {zoom:9,center:new google.maps.LatLng(48.7099289,9.200354400000037),
+	mapTypeId: google.maps.MapTypeId.ROADMAP};
+	map = new google.maps.Map(document.getElementById('gmap_canvas2'), myOptions);
 	marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(48.7099289,9.200354400000037)});
 	infowindow = new google.maps.InfoWindow({content:'<strong>AgriConcept Beratungsgesellschaft mbH<br>Wollgrasweg 31<br>70599 Stuttgart-Plieningen<br>0711-6996950<br></strong>'});
 	google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}
-	google.maps.event.addDomListener(window, 'load', init_map);</script>
+	google.maps.event.addDomListener(window, 'load', init_map);
+	</script>
 	</div>
 	</div>
 
 <!-- <section class="map">  -->
-  <!-- google map -->
+  <!-- <!-- google map --> 
   <!-- <div class="map-holder"> -->
     <!-- <div class="map-container"> -->
       <!-- <iframe class="map" src="https://www.google.de/maps/place/Wollgrasweg+31,+70599+Stuttgart/@48.7099324,9.1981604,17z/data=!3m1!4b1!4m5!3m4!1s0x4799c2fcbb766967:0xdc37939d63fb12da!8m2!3d48.7099289!4d9.2003544"></iframe> -->
-      <!-- end google map  -->
+      <!-- <!-- end google map  --> 
     <!-- </div> -->
-    <!-- map-container ends here  -->
+    <!-- <!-- map-container ends here  --> 
   <!-- </div> -->
-  <!-- map-holder ends here  -->
+  <!-- <!-- map-holder ends here  --> 
 <!-- </section> -->
-</div>
+<!-- </div> -->
+<!-- </div> -->
 
 <!-- Copyright ==================================================
 ================================================== -->
